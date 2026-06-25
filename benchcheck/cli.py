@@ -39,6 +39,12 @@ def cmd_detect(args: argparse.Namespace) -> int:
     )
     out = run(model, items, config)
 
+    # Persist a machine-readable report FIRST, before any printing, so a long
+    # run's results survive regardless of stdout buffering or downstream pipes.
+    if args.output:
+        _write_report_json(args, out)
+        print(f"[wrote report to {args.output}]")
+
     print(f"\n=== benchcheck report: {args.dataset} (model={args.model}) ===")
     print(out.report.summary())
     if args.timing:
@@ -51,11 +57,48 @@ def cmd_detect(args: argparse.Namespace) -> int:
 
     if args.show_flagged:
         flagged = [v for v in out.report.items if v.flagged]
-        flagged.sort(key=lambda v: v.p_value)
+        flagged.sort(key=lambda v: -v.combined_score)
         print(f"\nflagged items ({len(flagged)}):")
         for v in flagged:
-            print(f"    {v.item_id:<14} p={v.p_value:.3f}  score={v.combined_score:+.2f}")
+            print(f"    {v.item_id:<18} score={v.combined_score:+.2f}  "
+                  f"signals={ {k: round(s, 2) for k, s in v.signal_scores.items() if s > 0} }")
     return 0
+
+
+def _write_report_json(args: argparse.Namespace, out) -> None:
+    import json
+
+    r = out.report
+    payload = {
+        "dataset": args.dataset,
+        "model": args.model,
+        "n_items": r.n_items,
+        "n_flagged": r.n_flagged,
+        "contamination_rate": r.contamination_rate,
+        "ci_low": r.ci_low,
+        "ci_high": r.ci_high,
+        "per_signal_mean": r.per_signal_mean,
+        "signals_run": out.signals_run,
+        "signals_skipped": out.signals_skipped,
+        "timing": {
+            "n_items": out.timing.n_items,
+            "wall_seconds": out.timing.wall_seconds,
+            "items_per_second": out.timing.items_per_second,
+            "ms_per_item": out.timing.ms_per_item,
+            "per_signal_seconds": out.timing.per_signal_seconds,
+        },
+        "items": [
+            {
+                "id": v.item_id,
+                "combined_score": v.combined_score,
+                "flagged": v.flagged,
+                "signal_scores": v.signal_scores,
+            }
+            for v in r.items
+        ],
+    }
+    with open(args.output, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
 
 
 def cmd_signals(args: argparse.Namespace) -> int:
@@ -88,6 +131,7 @@ def build_parser() -> argparse.ArgumentParser:
     d.add_argument("--seed", type=int, default=0)
     d.add_argument("--show-flagged", action="store_true")
     d.add_argument("--timing", action="store_true", help="report throughput/latency")
+    d.add_argument("--output", default=None, help="write JSON report to this path")
     d.set_defaults(func=cmd_detect)
 
     s = sub.add_parser("signals", help="list available signals")

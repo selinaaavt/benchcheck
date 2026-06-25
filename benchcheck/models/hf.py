@@ -35,6 +35,11 @@ class HFModel:
         self._torch = torch
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        # Many causal LMs (e.g. gpt2) ship without a pad token; needed for
+        # batched scoring. Left-pad so the final token positions stay aligned.
+        if self.tokenizer.pad_token is None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+        self.tokenizer.padding_side = "left"
         self.model = AutoModelForCausalLM.from_pretrained(model_name).to(self.device)
         self.model.eval()
 
@@ -52,6 +57,37 @@ class HFModel:
         targets = ids[:, 1:]
         token_lp = logprobs.gather(-1, targets.unsqueeze(-1)).squeeze(-1)
         return float(token_lp.sum().item())
+
+    def logprob_batch(self, texts: list[str]) -> list[float]:  # pragma: no cover
+        """Score many texts in ONE padded forward pass.
+
+        This is the throughput lever: the shuffle signal scores ~16 rendered
+        blocks per item, and doing them one-at-a-time wastes the GPU/CPU's batch
+        parallelism. We left-pad, run a single batched forward, then mask out
+        padding when summing per-token logprobs so padding contributes nothing.
+        """
+        torch = self._torch
+        if not texts:
+            return []
+        enc = self.tokenizer(texts, return_tensors="pt", padding=True)
+        ids = enc.input_ids.to(self.device)
+        mask = enc.attention_mask.to(self.device)
+        # Models with absolute position embeddings (e.g. gpt2) need position_ids
+        # that ignore left padding -- otherwise real tokens get shifted position
+        # embeddings and their logprobs diverge from the unpadded computation.
+        position_ids = (mask.cumsum(-1) - 1).clamp(min=0)
+        with torch.no_grad():
+            logits = self.model(ids, attention_mask=mask, position_ids=position_ids).logits
+        logprobs = torch.log_softmax(logits[:, :-1, :], dim=-1)
+        targets = ids[:, 1:]
+        token_lp = logprobs.gather(-1, targets.unsqueeze(-1)).squeeze(-1)
+        # A predicted token counts only if BOTH it and the token it's predicted
+        # from are real (non-pad). With left padding, the first real token is
+        # predicted from a pad token, so it must be excluded -- matching the
+        # single-sequence logprob(), where the first token has no prior.
+        valid = (mask[:, 1:] * mask[:, :-1]).to(token_lp.dtype)
+        summed = (token_lp * valid).sum(dim=1)
+        return [float(x) for x in summed.tolist()]
 
     def complete(self, prefix: str, max_new_tokens: int = 64) -> str:  # pragma: no cover
         torch = self._torch

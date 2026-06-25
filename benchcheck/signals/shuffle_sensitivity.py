@@ -49,19 +49,20 @@ def _correct_index(item: Item) -> int | None:
     return None
 
 
-def _prob_of_correct(model, prompt: str, ordered: list[str], correct_pos: int) -> float:
-    """Soft probability the model puts on the correct option within this
-    ordering: softmax over per-choice logprobs of the rendered block."""
-    lps = []
-    for i in range(len(ordered)):
-        # Render with each option as the "answer line" appended; the model's
-        # logprob of the full block reflects how natural that completion is.
-        block = _render(prompt, ordered) + f"\nAnswer: {_LETTERS[i]}. {ordered[i]}"
-        lps.append(model.logprob(block))
+def _score_blocks(model, blocks: list[str]) -> list[float]:
+    """Score a list of rendered blocks, using the model's batched scorer when
+    available (big throughput win) and falling back to per-block scoring."""
+    batch = getattr(model, "logprob_batch", None)
+    if callable(batch):
+        return batch(blocks)
+    return [model.logprob(b) for b in blocks]
+
+
+def _softmax_prob(lps: list[float], pos: int) -> float:
     m = max(lps)
     exps = [math.exp(lp - m) for lp in lps]
     total = sum(exps)
-    return exps[correct_pos] / total if total > 0 else 0.0
+    return exps[pos] / total if total > 0 else 0.0
 
 
 class ShuffleSensitivitySignal:
@@ -79,11 +80,28 @@ class ShuffleSensitivitySignal:
             return SignalResult(item.id, self.name, 0.0, {"reason": "no_answer"})
 
         orders = [list(range(len(item.choices)))] + shuffled_choice_orders(item.choices)
-        probs = []
-        for order in orders:
+
+        # Build every rendered block across all orderings up front, then score
+        # them in ONE batched pass. This is the throughput optimization: instead
+        # of ~16 separate forward passes per item we do a single batch.
+        blocks: list[str] = []
+        layout: list[tuple[int, int]] = []  # (order_idx, correct_pos) per block
+        for oi, order in enumerate(orders):
             ordered = [item.choices[i] for i in order]
             correct_pos = order.index(correct)
-            probs.append(_prob_of_correct(model, item.prompt, ordered, correct_pos))
+            rendered = _render(item.prompt, ordered)
+            for i in range(len(ordered)):
+                blocks.append(rendered + f"\nAnswer: {_LETTERS[i]}. {ordered[i]}")
+                layout.append((oi, correct_pos))
+
+        all_lps = _score_blocks(model, blocks)
+
+        # Regroup per-ordering and compute the prob assigned to the correct option.
+        probs = []
+        for oi in range(len(orders)):
+            lps = [all_lps[k] for k in range(len(blocks)) if layout[k][0] == oi]
+            correct_pos = next(layout[k][1] for k in range(len(blocks)) if layout[k][0] == oi)
+            probs.append(_softmax_prob(lps, correct_pos))
 
         mean_p = sum(probs) / len(probs)
         var = sum((p - mean_p) ** 2 for p in probs) / len(probs)

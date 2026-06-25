@@ -74,7 +74,7 @@ def main() -> None:
         for b, d in sorted(benches.items(), key=lambda kv: -kv[1]["contamination_rate"]):
             print(
                 f"| {BENCH_LABEL.get(b, b)} | {d['n_items']} | {d['n_flagged']} | "
-                f"{d['contamination_rate']:.1%} | {d['ci_low']:.1%}–{d['ci_high']:.1%} |"
+                f"{d['contamination_rate']:.1%} | {d['ci_low']:.1%}-{d['ci_high']:.1%} |"
             )
 
     if len(by_model) > 1:
@@ -88,7 +88,7 @@ def main() -> None:
             cells = []
             for m in models:
                 d = by_model[m].get(b)
-                cells.append(f"{d['contamination_rate']:.1%}" if d else "—")
+                cells.append(f"{d['contamination_rate']:.1%}" if d else "-")
             print(f"| {BENCH_LABEL.get(b, b)} | " + " | ".join(cells) + " |")
 
 

@@ -5,7 +5,7 @@
 Estimates how much of an LLM's benchmark score comes from memorizing the test
 questions instead of actually answering them.
 
-> Want to run it on a modern model with a GPU? Click the Colab badge above — it
+> Want to run it on a modern model with a GPU? Click the Colab badge above - it
 > clones the repo, fetches the benchmarks, and runs the detector on Qwen2.5-3B
 > across four benchmarks in a few minutes on a free T4.
 
@@ -41,7 +41,7 @@ clean benchmarks.
 ## Results on real models
 
 Running the same four checks on an old model (gpt2, 2019) and a modern one
-(Qwen2.5-3B, 2024) across four public science benchmarks — fraction of each
+(Qwen2.5-3B, 2024) across four public science benchmarks - fraction of each
 benchmark flagged as showing memorization fingerprints:
 
 | Benchmark | gpt2 (2019) | Qwen2.5-3B (2024) |
@@ -52,7 +52,7 @@ benchmark flagged as showing memorization fingerprints:
 | OpenBookQA | 13.3% | 7.3% |
 
 Two findings: the **modern model shows consistently less memorization signal**,
-and **both models agree on the rank order** (ARC highest, OpenBookQA lowest) —
+and **both models agree on the rank order** (ARC highest, OpenBookQA lowest) -
 which suggests the checks track something real. Each flagged question was
 independently picked out by at least two checks; rates are a lower bound
 (recall < 1). See [FINDINGS.md](FINDINGS.md) for the full writeup, caveats, and
@@ -75,12 +75,12 @@ the truth. Results on a 200-question benchmark:
 
 | True contamination | Precision | Recall | False positives (clean items) |
 |---|---|---|---|
-| 0% | — | — | 0% |
+| 0% | - | - | 0% |
 | 10% | 0.62 | 1.00 | 7% |
 | 30% | 0.91 | 0.80 | 4% |
 | 50% | 0.93 | 0.80 | 6% |
 
-A clean benchmark is never flagged. Contamination in the 10–50% range is caught
+A clean benchmark is never flagged. Contamination in the 10-50% range is caught
 with high precision. The flagged rate is a lower bound on the true rate, since
 recall is below 1.
 

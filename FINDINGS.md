@@ -10,26 +10,26 @@ each benchmark flagged as showing memorization fingerprints:
 
 | Benchmark | gpt2 (2019) | Qwen2.5-3B (2024) | Δ |
 |---|---|---|---|
-| ARC-Challenge | 18.7% | 16.0% | −2.7 |
-| ARC-Easy | 17.2% | 10.0% | −7.2 |
-| SciQ | 15.0% | 10.0% | −5.0 |
-| OpenBookQA | 13.3% | 7.3% | −6.0 |
+| ARC-Challenge | 18.7% | 16.0% | -2.7 |
+| ARC-Easy | 17.2% | 10.0% | -7.2 |
+| SciQ | 15.0% | 10.0% | -5.0 |
+| OpenBookQA | 13.3% | 7.3% | -6.0 |
 
 Two things stand out:
 
 1. **The modern model shows consistently less memorization signal** on every
    benchmark. This is directionally what you'd hope for (better training-data
-   hygiene/dedup in modern pipelines) — though it could partly reflect that a
+   hygiene/dedup in modern pipelines) - though it could partly reflect that a
    more capable model is legitimately confident on more questions, which dilutes
    the "suspiciously confident on the exact wording" signal. The tool can't fully
    separate those two explanations, and the writeup doesn't claim to.
-2. **Both models agree on the rank order** — ARC sets highest, OpenBookQA lowest.
+2. **Both models agree on the rank order** - ARC sets highest, OpenBookQA lowest.
    Two independently-trained models agreeing on *which* benchmarks look most
    memorized is evidence the checks measure something real, not noise.
 
 gpt2 was run on CPU and on a 500-item ARC-Easy split; Qwen2.5-3B was run on a
 free Colab T4 GPU at 300 items per benchmark. Rates (not raw counts) are the
-comparable quantity. The Qwen result files are summary-only — the per-question
+comparable quantity. The Qwen result files are summary-only - the per-question
 detail from that Colab session was not retained.
 
 ## Cross-benchmark ranking (gpt2)
@@ -38,10 +38,10 @@ How much of each benchmark gpt2 shows memorization fingerprints on, ranked:
 
 | Benchmark | Questions | Flagged | Rate | 95% CI |
 |---|---|---|---|---|
-| ARC-Challenge | 300 | 56 | 18.7% | 14.3%–23.3% |
-| ARC-Easy | 500 | 86 | 17.2% | 14.0%–20.6% |
-| SciQ | 300 | 45 | 15.0% | 11.0%–19.0% |
-| OpenBookQA | 300 | 40 | 13.3% | 9.7%–17.3% |
+| ARC-Challenge | 300 | 56 | 18.7% | 14.3%-23.3% |
+| ARC-Easy | 500 | 86 | 17.2% | 14.0%-20.6% |
+| SciQ | 300 | 45 | 15.0% | 11.0%-19.0% |
+| OpenBookQA | 300 | 40 | 13.3% | 9.7%-17.3% |
 
 The spread is small but consistent and directionally sensible: the ARC sets
 (standard textbook-style science Q&A, widely scraped and reposted) show more
@@ -65,7 +65,7 @@ fingerprints, which correlate with contamination but are not identical to it
   check is therefore the weakest contributor here and mostly abstains.
 
 - **Questions analyzed:** 500
-- **Flagged as likely contaminated:** 86 (17.2%), 95% CI 14.0%–20.6%
+- **Flagged as likely contaminated:** 86 (17.2%), 95% CI 14.0%-20.6%
 - **Throughput:** 0.25 questions/sec (4031 ms/question) on CPU, 500 questions in 2016 s
 
 Mean score per check:

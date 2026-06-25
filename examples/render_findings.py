@@ -19,7 +19,7 @@ def _findings_block(d: dict) -> str:
         f"- **Questions analyzed:** {d['n_items']}",
         f"- **Flagged as likely contaminated:** {d['n_flagged']} "
         f"({d['contamination_rate']:.1%}), 95% CI "
-        f"{d['ci_low']:.1%}–{d['ci_high']:.1%}",
+        f"{d['ci_low']:.1%}-{d['ci_high']:.1%}",
         f"- **Throughput:** {t['items_per_second']:.2f} questions/sec "
         f"({t['ms_per_item']:.0f} ms/question) on CPU, "
         f"{t['n_items']} questions in {t['wall_seconds']:.0f} s",
@@ -50,7 +50,7 @@ def _readme_block(d: dict) -> str:
         f"({t['items_per_second']:.2f} questions/sec on CPU).\n"
         f"- **{d['n_flagged']} questions ({d['contamination_rate']:.1%})** flagged "
         f"as showing memorization fingerprints (95% CI "
-        f"{d['ci_low']:.1%}–{d['ci_high']:.1%})."
+        f"{d['ci_low']:.1%}-{d['ci_high']:.1%})."
     )
 
 

@@ -38,22 +38,25 @@ No single check is reliable on its own. The detector only flags a question when
 at least two checks agree on it. That requirement is what keeps it quiet on
 clean benchmarks.
 
-## Results on a real model
+## Results on real models
 
-Running gpt2 against four public multiple-choice science benchmarks (1,400
-questions total, on CPU), ranked by the fraction showing memorization
-fingerprints:
+Running the same four checks on an old model (gpt2, 2019) and a modern one
+(Qwen2.5-3B, 2024) across four public science benchmarks — fraction of each
+benchmark flagged as showing memorization fingerprints:
 
-| Benchmark | Questions | Flagged | Rate | 95% CI |
-|---|---|---|---|---|
-| ARC-Challenge | 300 | 56 | 18.7% | 14.3%–23.3% |
-| ARC-Easy | 500 | 86 | 17.2% | 14.0%–20.6% |
-| SciQ | 300 | 45 | 15.0% | 11.0%–19.0% |
-| OpenBookQA | 300 | 40 | 13.3% | 9.7%–17.3% |
+| Benchmark | gpt2 (2019) | Qwen2.5-3B (2024) |
+|---|---|---|
+| ARC-Challenge | 18.7% | 16.0% |
+| ARC-Easy | 17.2% | 10.0% |
+| SciQ | 15.0% | 10.0% |
+| OpenBookQA | 13.3% | 7.3% |
 
-Each flagged question was independently picked out by at least two checks. The
-rates are a lower bound (recall < 1). See [FINDINGS.md](FINDINGS.md) for the full
-writeup, per-benchmark detail, and example questions.
+Two findings: the **modern model shows consistently less memorization signal**,
+and **both models agree on the rank order** (ARC highest, OpenBookQA lowest) —
+which suggests the checks track something real. Each flagged question was
+independently picked out by at least two checks; rates are a lower bound
+(recall < 1). See [FINDINGS.md](FINDINGS.md) for the full writeup, caveats, and
+example questions.
 
 ## How the scoring works
 

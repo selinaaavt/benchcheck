@@ -1,9 +1,38 @@
-# Findings: memorization fingerprints across four benchmarks (gpt2)
+# Findings: memorization fingerprints across models and benchmarks
 
-These are real runs of benchcheck against a real model (gpt2) and four real
-public benchmarks. Not a synthetic demo.
+These are real runs of benchcheck against real models (gpt2 and Qwen2.5-3B) and
+four real public benchmarks. Not a synthetic demo.
 
-## Cross-benchmark ranking
+## Generational comparison: gpt2 (2019) vs Qwen2.5-3B (2024)
+
+Running the same four checks on an old model and a modern one, the fraction of
+each benchmark flagged as showing memorization fingerprints:
+
+| Benchmark | gpt2 (2019) | Qwen2.5-3B (2024) | Δ |
+|---|---|---|---|
+| ARC-Challenge | 18.7% | 16.0% | −2.7 |
+| ARC-Easy | 17.2% | 10.0% | −7.2 |
+| SciQ | 15.0% | 10.0% | −5.0 |
+| OpenBookQA | 13.3% | 7.3% | −6.0 |
+
+Two things stand out:
+
+1. **The modern model shows consistently less memorization signal** on every
+   benchmark. This is directionally what you'd hope for (better training-data
+   hygiene/dedup in modern pipelines) — though it could partly reflect that a
+   more capable model is legitimately confident on more questions, which dilutes
+   the "suspiciously confident on the exact wording" signal. The tool can't fully
+   separate those two explanations, and the writeup doesn't claim to.
+2. **Both models agree on the rank order** — ARC sets highest, OpenBookQA lowest.
+   Two independently-trained models agreeing on *which* benchmarks look most
+   memorized is evidence the checks measure something real, not noise.
+
+gpt2 was run on CPU and on a 500-item ARC-Easy split; Qwen2.5-3B was run on a
+free Colab T4 GPU at 300 items per benchmark. Rates (not raw counts) are the
+comparable quantity. The Qwen result files are summary-only — the per-question
+detail from that Colab session was not retained.
+
+## Cross-benchmark ranking (gpt2)
 
 How much of each benchmark gpt2 shows memorization fingerprints on, ranked:
 

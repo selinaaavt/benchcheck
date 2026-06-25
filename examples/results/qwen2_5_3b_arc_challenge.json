@@ -1,0 +1,22 @@
+{
+  "dataset": "arc_challenge",
+  "model": "Qwen/Qwen2.5-3B",
+  "summary_only": true,
+  "note": "Headline metrics transcribed from the Colab GPU run output; per-question detail was not retained from that session.",
+  "n_items": 300,
+  "n_flagged": 48,
+  "contamination_rate": 0.16,
+  "ci_low": 0.12,
+  "ci_high": 0.203,
+  "signals_run": [
+    "ngram_overlap",
+    "perturbation_gap",
+    "shuffle_sensitivity",
+    "verbatim_completion"
+  ],
+  "timing": {
+    "n_items": 300,
+    "wall_seconds": 1344,
+    "items_per_second": 0.223
+  }
+}

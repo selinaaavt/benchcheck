@@ -135,6 +135,28 @@ because batched scoring must be numerically identical to single scoring:
 After both fixes, batched and single scoring agree to <1e-3. On CPU the batch
 gives ~25% wall-time improvement; on GPU the gain is larger.
 
+### C++ n-gram scanner
+
+The `ngram_overlap` check has a different cost profile: no model, but a large
+reference corpus to scan. For a realistic contamination audit the corpus could
+be millions of documents, and the work is per-token hashing plus set membership
+over tens of millions of n-grams — exactly where Python's per-object overhead
+hurts. `native/ngram_scan.cpp` (pybind11) does it with a rolling FNV-1a hash,
+n-grams stored as 64-bit integers in one flat `unordered_set`, and no per-n-gram
+Python allocation.
+
+Measured (median of 7 trials, 80k-doc synthetic corpus, 7.44M distinct n-grams):
+
+| | Build throughput | Scan throughput | Speedup vs Python |
+|---|---|---|---|
+| C++ | ~1.1M n-grams/s | ~1.0M query-n-grams/s | build 1.7x, scan 3.2x |
+
+The speedup is real but bounded: Python's `set` is already C-backed, so the win
+comes from removing tuple allocation and repeated hashing, not from algorithmic
+change. I kept an identical pure-Python backend (`corpus_index.py`) and a test
+asserting the two agree exactly — the C++ path is an optimization, never a
+correctness dependency, and the tool runs fine if the extension isn't built.
+
 ## 8. What I'd do next
 
 - Replace synthetic paraphrases with a held-out paraphrase model for stronger

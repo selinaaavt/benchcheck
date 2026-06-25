@@ -1,7 +1,13 @@
 # benchcheck
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/selinaaavt/benchcheck/blob/main/notebooks/benchcheck_colab.ipynb)
+
 Estimates how much of an LLM's benchmark score comes from memorizing the test
 questions instead of actually answering them.
+
+> Want to run it on a modern model with a GPU? Click the Colab badge above — it
+> clones the repo, fetches the benchmarks, and runs the detector on Qwen2.5-3B
+> across four benchmarks in a few minutes on a free T4.
 
 Benchmark questions are all over the public internet, and models train on the
 public internet. So when a model scores well, some of that score can be

@@ -42,8 +42,19 @@ class NgramOverlapSignal:
     required_capability = None  # no model needed
 
     def score_item(self, item: Item, ctx: SignalContext) -> SignalResult:
-        corpus = ctx.corpus_ngrams
         n = ctx.corpus_ngram_n
+        # Preferred path: a prebuilt corpus index (C++ or Python backend),
+        # which exposes .overlap() directly.
+        if getattr(ctx, "corpus_index", None) is not None:
+            frac = ctx.corpus_index.overlap(item.prompt)
+            return SignalResult(
+                item_id=item.id,
+                signal=self.name,
+                score=frac,
+                detail={"n": n, "backend": getattr(ctx.corpus_index, "backend", "?")},
+            )
+        # Legacy path: a raw set of corpus n-grams (kept for back-compat tests).
+        corpus = ctx.corpus_ngrams
         if corpus is None:
             return SignalResult(item.id, self.name, 0.0, {"reason": "no_corpus"})
         item_ngrams = _ngrams(_tokens(item.prompt), n)

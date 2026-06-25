@@ -28,6 +28,7 @@ class SignalContext:
     model: object | None = None
     model_capabilities: set[str] = field(default_factory=set)
     corpus_ngrams: set | None = None
+    corpus_index: object | None = None  # CorpusIndex (C++ or Python backend)
     corpus_ngram_n: int = 8
     extra: dict = field(default_factory=dict)
 

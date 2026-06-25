@@ -14,9 +14,9 @@ import time
 from dataclasses import dataclass, field
 
 from benchcheck import signals as signals_pkg
+from benchcheck.corpus_index import build_index
 from benchcheck.models.base import capabilities_of
 from benchcheck.signals.base import SignalContext, available_for
-from benchcheck.signals.ngram_overlap import build_corpus_ngrams
 from benchcheck.stats import BenchmarkReport, analyze
 from benchcheck.types import Item, SignalResult
 
@@ -72,12 +72,15 @@ def run(model, items: list[Item], config: RunConfig | None = None) -> RunOutput:
     config = config or RunConfig()
 
     caps = capabilities_of(model) if model is not None else set()
+    corpus_index = (
+        build_index(config.corpus_texts, config.corpus_ngram_n)
+        if config.corpus_texts
+        else None
+    )
     ctx = SignalContext(
         model=model,
         model_capabilities=caps,
-        corpus_ngrams=build_corpus_ngrams(config.corpus_texts, config.corpus_ngram_n)
-        if config.corpus_texts
-        else None,
+        corpus_index=corpus_index,
         corpus_ngram_n=config.corpus_ngram_n,
     )
 

@@ -13,7 +13,29 @@ benchmark. It is not a synthetic demo.
 - **Reference corpus for n-gram overlap:** a small sample corpus; the n-gram
   check is therefore the weakest contributor here and mostly abstains.
 
-<!-- RESULTS_PLACEHOLDER -->
+- **Questions analyzed:** 500
+- **Flagged as likely contaminated:** 86 (17.2%), 95% CI 14.0%–20.6%
+- **Throughput:** 0.25 questions/sec (4031 ms/question) on CPU, 500 questions in 2016 s
+
+Mean score per check:
+
+| Check | Mean score |
+|---|---|
+| `ngram_overlap` | 0.000 |
+| `perturbation_gap` | 0.145 |
+| `shuffle_sensitivity` | 0.639 |
+| `verbatim_completion` | 0.010 |
+
+Top flagged questions (and which checks fired):
+
+- `Mercury_7271740` (score +2.04): perturbation_gap 0.88, shuffle_sensitivity 0.78, verbatim_completion 0.25
+- `Mercury_7033548` (score +2.00): perturbation_gap 0.92, shuffle_sensitivity 0.39, verbatim_completion 0.33
+- `MCAS_1999_8_9` (score +1.83): shuffle_sensitivity 0.58, verbatim_completion 0.36, perturbation_gap 0.30
+- `Mercury_414097` (score +1.76): shuffle_sensitivity 0.70, verbatim_completion 0.38
+- `ACTAAP_2007_7_18` (score +1.62): shuffle_sensitivity 0.76, verbatim_completion 0.33
+- `Mercury_SC_401624` (score +1.53): shuffle_sensitivity 0.68, verbatim_completion 0.33
+- `Mercury_402144` (score +1.46): shuffle_sensitivity 0.76, verbatim_completion 0.30
+- `MEAP_2005_8_14` (score +1.45): shuffle_sensitivity 0.70, perturbation_gap 0.43, verbatim_completion 0.24
 
 ## How to read this
 

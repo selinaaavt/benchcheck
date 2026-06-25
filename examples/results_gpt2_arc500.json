@@ -1,0 +1,5536 @@
+{
+  "dataset": "examples/arc_easy_test.jsonl",
+  "model": "hf:gpt2",
+  "n_items": 500,
+  "n_flagged": 86,
+  "contamination_rate": 0.172,
+  "ci_low": 0.14,
+  "ci_high": 0.206,
+  "per_signal_mean": {
+    "ngram_overlap": 0.0,
+    "perturbation_gap": 0.14488731622548576,
+    "shuffle_sensitivity": 0.6392565721825849,
+    "verbatim_completion": 0.010326548151243856
+  },
+  "signals_run": [
+    "ngram_overlap",
+    "perturbation_gap",
+    "shuffle_sensitivity",
+    "verbatim_completion"
+  ],
+  "signals_skipped": {},
+  "timing": {
+    "n_items": 500,
+    "wall_seconds": 2015.6509303050116,
+    "items_per_second": 0.2480588243145549,
+    "ms_per_item": 4031.301860610023,
+    "per_signal_seconds": {
+      "ngram_overlap": 0.013451376231387258,
+      "perturbation_gap": 53.94726964691654,
+      "shuffle_sensitivity": 1415.4682630458847,
+      "verbatim_completion": 546.2187968330691
+    }
+  },
+  "items": [
+    {
+      "id": "Mercury_417466",
+      "combined_score": -0.276085911680934,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5636915147608413,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7081673",
+      "combined_score": -0.11690125179039206,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6939473430632127,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7239733",
+      "combined_score": -0.07786742727083862,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7258875007900939,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_4_8",
+      "combined_score": 0.007199788376631225,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7954953426710689,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7037258",
+      "combined_score": -0.05215680755443654,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7469256967420784,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ20679",
+      "combined_score": 0.7329293253632789,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7161390447006108,
+        "shuffle_sensitivity": 0.8542662325477632,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_182158",
+      "combined_score": -0.08315018502731646,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7215647853490209,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7216668",
+      "combined_score": -0.11820105180195138,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6928837573681494,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2001_5_19",
+      "combined_score": -0.1907274138926081,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6335377037071239,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_413631",
+      "combined_score": -0.18897303972649387,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.634973253214951,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2005_5_10",
+      "combined_score": -0.11218517075575087,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7842922333586537,
+        "shuffle_sensitivity": 0.11181409481403617,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7166145",
+      "combined_score": 0.03495921566763642,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8182100137799285,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2013_5_6",
+      "combined_score": 0.7461511767971643,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8239017635274615,
+        "shuffle_sensitivity": 0.7845692004230754,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405199",
+      "combined_score": -0.2853063359616646,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5561467299630367,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_8_28",
+      "combined_score": -0.12931538520154467,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6837892459749775,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401777",
+      "combined_score": -0.2249168794745144,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6055615333798522,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7198188",
+      "combined_score": 0.4484841893221471,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.562256960188086,
+        "shuffle_sensitivity": 0.7364883078163621,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_1998_4_11",
+      "combined_score": 0.5939250664305804,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5048847074972415,
+        "shuffle_sensitivity": 0.8983643163209478,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10784",
+      "combined_score": -0.009082620104725811,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7821719570825639,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7033548",
+      "combined_score": 2.004468840861222,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9172361165910708,
+        "shuffle_sensitivity": 0.3857344667297193,
+        "verbatim_completion": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Mercury_7146195",
+      "combined_score": -0.47575020774454485,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4003124662767808,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NCEOGA_2013_8_36",
+      "combined_score": -0.3856226815577425,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4740610019986147,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_415412",
+      "combined_score": 0.04696878715330004,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8280370704981909,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7126840",
+      "combined_score": -0.037013895104648434,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7593166683684508,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408362",
+      "combined_score": 0.0022691934191808733,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.791460791033695,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2008_8_35",
+      "combined_score": 0.0845400948505881,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8587804964531707,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_8_21",
+      "combined_score": -0.13490846312719984,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6792126052454821,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2008_5_12",
+      "combined_score": -0.01456347877016441,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7776871418637744,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10680",
+      "combined_score": 0.009020711677766344,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7969853472545981,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2003_5_3",
+      "combined_score": 0.05797772290159904,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8370453382898757,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2010_5_18",
+      "combined_score": -0.3433842299596505,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5086234058313849,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7074900",
+      "combined_score": 0.7569977015722705,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8634216335091377,
+        "shuffle_sensitivity": 0.7639168819121666,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408762",
+      "combined_score": -0.7827850254220441,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.14907547822937628,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2015_5_8",
+      "combined_score": -0.11933741936959177,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6919539033301992,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7263008",
+      "combined_score": -0.06647385822063559,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.735210501982388,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2000_4_29",
+      "combined_score": 0.3958400842228661,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.39796014326102824,
+        "shuffle_sensitivity": 0.816167394473875,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ_2008_5_CSZ10233",
+      "combined_score": -0.02892119546316875,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7659386713662778,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7128660",
+      "combined_score": -0.1276201716871409,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6851763861719027,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7100520",
+      "combined_score": -0.07108299072171274,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7314389930185469,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7017728",
+      "combined_score": -0.8165263131884584,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.12146603779067416,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7032865",
+      "combined_score": 0.03803199080114299,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8207243695631871,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_405057",
+      "combined_score": 0.7096157024649055,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8049038716829091,
+        "shuffle_sensitivity": 0.7688678411258103,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7057593",
+      "combined_score": 0.29978082406651374,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.35503126506821303,
+        "shuffle_sensitivity": 0.7696398735393094,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405231",
+      "combined_score": 0.20942956709404587,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6331839055792579,
+        "shuffle_sensitivity": 0.48788356710089514,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2007_5_38",
+      "combined_score": -0.9643927994212365,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.00047151698913757263,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_410895",
+      "combined_score": -0.398134560401239,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.46382292288031773,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7015978",
+      "combined_score": -0.5018247334854641,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4392526543339299,
+        "shuffle_sensitivity": 0.05078421268959236,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2010_5_5",
+      "combined_score": -0.24780441740714,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5868333769528068,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7080955",
+      "combined_score": 0.6116998215372891,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6245517464305386,
+        "shuffle_sensitivity": 0.823498343699755,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2009_5_4",
+      "combined_score": 0.6931041353768441,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.772431935144616,
+        "shuffle_sensitivity": 0.77961869439202,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7017010",
+      "combined_score": -0.10705487810767733,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7020043226785763,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7146108",
+      "combined_score": -0.08303951614380407,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7216553422349615,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_4_12",
+      "combined_score": -0.06707295888004634,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7347202766511174,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2009_5_3",
+      "combined_score": 0.0840807076008802,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8584045942351843,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401253",
+      "combined_score": -0.030502631152007423,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5612372145997013,
+        "shuffle_sensitivity": 0.3453102878402373,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7235953",
+      "combined_score": 1.0188344899188255,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4784053835626225,
+        "shuffle_sensitivity": 0.8129250594151576,
+        "verbatim_completion": 0.1111111111111111
+      }
+    },
+    {
+      "id": "Mercury_403974",
+      "combined_score": -0.4432785691855643,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4268829924803961,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7241063",
+      "combined_score": 0.058821886171734436,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8377360906905752,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2010_8_12015",
+      "combined_score": 0.038008097720401215,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8207048186025301,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7168350",
+      "combined_score": 0.054403180401104353,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8341204019642013,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402980",
+      "combined_score": -0.08172155456956877,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7227337889687157,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_417126",
+      "combined_score": -0.25918938942009406,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5775174104472003,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2010_8_2",
+      "combined_score": -0.4421868682665465,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4277762971968361,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2010_8_13",
+      "combined_score": -0.04510625089632499,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.752694946732163,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_177223",
+      "combined_score": 0.48665056660297124,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5547036513649801,
+        "shuffle_sensitivity": 0.7733621954883326,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7200533",
+      "combined_score": -0.04225513325558482,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7550279271219661,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400707",
+      "combined_score": 0.5370988069805327,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8672200010491186,
+        "shuffle_sensitivity": 0.5811425036996815,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400380",
+      "combined_score": -0.4135801098442375,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4511843128681068,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7205590",
+      "combined_score": 0.0202090795975126,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8061404387800022,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_4_30",
+      "combined_score": -0.09002743608185748,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7159373459137853,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_4_17",
+      "combined_score": -0.2312270408462333,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6003981256949656,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2008_3_5",
+      "combined_score": -0.128435982663137,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6845088335667107,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_415390",
+      "combined_score": 0.29594384932206336,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7793296318533682,
+        "shuffle_sensitivity": 0.44948116712752206,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408436",
+      "combined_score": -0.2109644372214558,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6169783804790816,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401143",
+      "combined_score": 0.06501322453147572,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8428022692212381,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "LEAP_2005_8_10403",
+      "combined_score": -0.14216789318913453,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.2930887143407557,
+        "shuffle_sensitivity": 0.4542880957149761,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7108045",
+      "combined_score": 0.16567956522943406,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4210935735582386,
+        "shuffle_sensitivity": 0.6105498525298242,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402251",
+      "combined_score": -0.0937421992187745,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7128976714270668,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7071418",
+      "combined_score": 0.5967994702877454,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.08285833098694761,
+        "shuffle_sensitivity": 0.8084155489233399,
+        "verbatim_completion": 0.1
+      }
+    },
+    {
+      "id": "Mercury_SC_407370",
+      "combined_score": 0.05690936448054719,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.836171134009428,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7084595",
+      "combined_score": 0.027616208721424937,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8122014608661834,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7041335",
+      "combined_score": -0.378929598740254,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4795377423257781,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7236320",
+      "combined_score": -0.04821214161394137,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7501534935021975,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "LEAP__5_10308",
+      "combined_score": 0.01411394148622526,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8011529779037532,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7068425",
+      "combined_score": 0.08912860304029223,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8625351291880906,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401308",
+      "combined_score": -0.6402798865674566,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.26568297616047315,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2008_4_18",
+      "combined_score": -0.1745286074982258,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6467926803227154,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7165550",
+      "combined_score": -0.0003731348166707976,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7892986564835175,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7114923",
+      "combined_score": -0.17318355951352107,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6478932910189635,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408434",
+      "combined_score": 0.7332772531010281,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7269825893730092,
+        "shuffle_sensitivity": 0.8464490613933775,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7008453",
+      "combined_score": -0.34309083904390864,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5088634784412245,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2010_8_14",
+      "combined_score": 0.02388717525240748,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8091501094130463,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_8_24",
+      "combined_score": -0.010171552032716677,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7812809181448743,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2008_4_6",
+      "combined_score": 0.8086889186583102,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8716009387105834,
+        "shuffle_sensitivity": 0.8001029333555728,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_400279",
+      "combined_score": -0.16755551015868525,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5724857519161752,
+        "shuffle_sensitivity": 0.22475973951586423,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7092190",
+      "combined_score": 0.04485812915331398,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8263099850727469,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7113890",
+      "combined_score": -0.19310169013439238,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6315949077197159,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TAKS_2009_8_17",
+      "combined_score": -0.337590858761446,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5133639402811498,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "AKDE&ED_2008_4_3",
+      "combined_score": -0.6424945260760718,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2638708059187917,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7202353",
+      "combined_score": 1.1688004810707007,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5485013916748038,
+        "shuffle_sensitivity": 0.5718864240998103,
+        "verbatim_completion": 0.1875
+      }
+    },
+    {
+      "id": "MCAS_2006_9_14",
+      "combined_score": 0.04886547207806215,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8295890684487056,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2015_5_37",
+      "combined_score": 0.08632984899607697,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8602449962915254,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2010_8_22",
+      "combined_score": 1.1142884211818118,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7161251604143875,
+        "shuffle_sensitivity": 0.5840132686593855,
+        "verbatim_completion": 0.14285714285714285
+      }
+    },
+    {
+      "id": "MCAS_1999_4_4",
+      "combined_score": -0.638642730650955,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2670226096409271,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7247923",
+      "combined_score": -0.7033345024584718,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.21408735616279492,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_416124",
+      "combined_score": 0.04342728589885907,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8251391707907172,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_407530",
+      "combined_score": -0.08892391582912029,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7168403220213296,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7271740",
+      "combined_score": 2.037434967519027,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8760876492600999,
+        "shuffle_sensitivity": 0.7831393734476025,
+        "verbatim_completion": 0.25
+      }
+    },
+    {
+      "id": "Mercury_7026495",
+      "combined_score": 0.07025343970406832,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5844991054491859,
+        "shuffle_sensitivity": 0.41037546048599827,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7084315",
+      "combined_score": 0.29018262992366994,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5347088311545478,
+        "shuffle_sensitivity": 0.6275379701419355,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2011_4_pg51",
+      "combined_score": 0.0024257102725313423,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7915888638793478,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7081148",
+      "combined_score": -0.08437149297480054,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7205654272549609,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400040",
+      "combined_score": 0.5124052314894582,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7280341668368183,
+        "shuffle_sensitivity": 0.6649306971485931,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2010_7_10",
+      "combined_score": -0.12023589560466676,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6912187083290593,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2013_7_4",
+      "combined_score": 0.06527349821922605,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8430152430392338,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405444",
+      "combined_score": 0.09687997205121522,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6582487555080558,
+        "shuffle_sensitivity": 0.377060284973156,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7213675",
+      "combined_score": 0.7610965690132652,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9387398150643065,
+        "shuffle_sensitivity": 0.7109960778516455,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEA_2010_8_15-v1",
+      "combined_score": -0.006093358869431534,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7846179760550149,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7094675",
+      "combined_score": 0.1173658321689459,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.651336026462632,
+        "shuffle_sensitivity": 0.39898814246895437,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_403912",
+      "combined_score": 0.864657999454442,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9032914995900657,
+        "shuffle_sensitivity": 0.8222227425475125,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7009853",
+      "combined_score": -0.10536780726469121,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7033847999821622,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10020",
+      "combined_score": -0.21002105479251598,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6177503208141111,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEA_2013_8_2",
+      "combined_score": -0.03870484882699422,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7579330138261313,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7068688",
+      "combined_score": 0.6075153793224233,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8089090262083858,
+        "shuffle_sensitivity": 0.6823298464025171,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7271705",
+      "combined_score": 0.15811573699413994,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7036144471253711,
+        "shuffle_sensitivity": 0.3932721379393279,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_402456",
+      "combined_score": 0.006734976513461041,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7951150016615544,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NCEOGA_2013_8_6",
+      "combined_score": -0.4203397860886547,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.44565308122255837,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7230178",
+      "combined_score": -0.036822579237217115,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7594732161589024,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7215233",
+      "combined_score": 0.351651044370656,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4337348890068251,
+        "verbatim_completion": 0.15789473684210525
+      }
+    },
+    {
+      "id": "Mercury_SC_415535",
+      "combined_score": 0.08760655730346271,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.2565102508668565,
+        "shuffle_sensitivity": 0.669635329178789,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ_2008_8_29",
+      "combined_score": -0.44072173726417313,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.428975168070555,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2012_5_28",
+      "combined_score": 0.05765527468012763,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.1861126354607524,
+        "shuffle_sensitivity": 0.6977254572471723,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2010_8_12008",
+      "combined_score": -0.05753091741867704,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7425282307284818,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_406724",
+      "combined_score": 0.04701243442331106,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8280727856940667,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2007_8_pg33",
+      "combined_score": -0.0677784749648187,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7341429749056737,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7004988",
+      "combined_score": -0.5870498250197365,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3092394706257823,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10946",
+      "combined_score": 0.2558065968972821,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6165423012079588,
+        "shuffle_sensitivity": 0.5382663914432266,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TAKS_2009_8_39",
+      "combined_score": -0.031190042766147077,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7640821445819491,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408357",
+      "combined_score": 0.29116742667434137,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.25976643571929015,
+        "shuffle_sensitivity": 0.8337699286383966,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_178710",
+      "combined_score": -0.061376308350622244,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7393816676027927,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_410598",
+      "combined_score": 0.4206477958525228,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6829748556687405,
+        "shuffle_sensitivity": 0.6235150002869114,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2011_4_pg15",
+      "combined_score": -0.32790172747103474,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5212922533650284,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7217088",
+      "combined_score": -0.044258161010875804,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7533889121593593,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7143360",
+      "combined_score": -0.0782928379493619,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7255394005376083,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2012_8_23645",
+      "combined_score": -0.25181589392164605,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5835509111896372,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "LEAP__4_10228",
+      "combined_score": 0.37761688113923264,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5002180161948868,
+        "shuffle_sensitivity": 0.7248528618177891,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2012_8_29",
+      "combined_score": 0.27721984163674773,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7930896269956423,
+        "verbatim_completion": 0.0547945205479452
+      }
+    },
+    {
+      "id": "Mercury_SC_401774",
+      "combined_score": -0.6288207333527471,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2750596428232792,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2003_4_pg14",
+      "combined_score": 0.06054602793083309,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8391469019653333,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2008_7_13",
+      "combined_score": 0.11192594587612369,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.21818948850563158,
+        "shuffle_sensitivity": 0.7181668886921296,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_416096",
+      "combined_score": -0.9266022439358361,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.031394346551623695,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2013_8_12",
+      "combined_score": -0.3308413798883389,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5188868277367027,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7222845",
+      "combined_score": -0.3672113551329106,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.48912641455319655,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401166",
+      "combined_score": 0.536047565747349,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5879574467932281,
+        "shuffle_sensitivity": 0.7889362885307222,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "LEAP_2005_4_10267",
+      "combined_score": 0.08137993666193187,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7463161799615713,
+        "shuffle_sensitivity": 0.298576579525479,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2007_7_18",
+      "combined_score": 1.619798067448277,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7562931081791519,
+        "verbatim_completion": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Mercury_7188370",
+      "combined_score": -0.06353127828539504,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7376183231070759,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2013_5_5",
+      "combined_score": -0.13924692538371441,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6756625772768986,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2005_5_8",
+      "combined_score": 0.05854722139602535,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.837511341095419,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_184888",
+      "combined_score": -0.2523456417093922,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.05356408267995194,
+        "shuffle_sensitivity": 0.5430964620205704,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7044188",
+      "combined_score": 0.052674691291419926,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8327060333884329,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7056875",
+      "combined_score": 0.04397603878847199,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8255881981167108,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400868",
+      "combined_score": -0.15683062782574742,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.661274383541495,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_409142",
+      "combined_score": 0.055591741285840754,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8350929641610587,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408900",
+      "combined_score": -0.9241077938870257,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.03343547700659424,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401624",
+      "combined_score": 1.5290652720752573,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.682049299613497,
+        "verbatim_completion": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Mercury_7188965",
+      "combined_score": 0.022108186011846345,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8076944181596954,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NCEOGA_2013_8_32",
+      "combined_score": -0.6584616594231224,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.25080540011169566,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7008208",
+      "combined_score": 0.003222460008529285,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7922408192680358,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7092400",
+      "combined_score": 0.5240754832964736,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6228639775981212,
+        "shuffle_sensitivity": 0.7530591227849033,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_417462",
+      "combined_score": -0.6615604198332955,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.24826978138929348,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401211",
+      "combined_score": 0.5817690718957554,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5748104284891064,
+        "shuffle_sensitivity": 0.8361717012834164,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_178605",
+      "combined_score": -0.8834168153931587,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.06673163199914896,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400364",
+      "combined_score": 0.44778525288414905,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4961415083060573,
+        "shuffle_sensitivity": 0.7853152518846954,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2008_8_15",
+      "combined_score": 0.05426974525502033,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8340112161576684,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2015_5_7",
+      "combined_score": 0.010550697556940339,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7982372868455095,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7180618",
+      "combined_score": -0.5208838139975419,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3633810479428807,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_415262",
+      "combined_score": 0.02741055695607021,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.812033182458851,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7200200",
+      "combined_score": 0.7502875990851448,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7996559814852706,
+        "verbatim_completion": 0.14814814814814814
+      }
+    },
+    {
+      "id": "MDSA_2008_8_24",
+      "combined_score": -0.020073864365904373,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7731781656814456,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_185238",
+      "combined_score": 0.292957634050232,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.48821384578169325,
+        "shuffle_sensitivity": 0.6645478912337903,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2015_8_6",
+      "combined_score": -0.1335927927222515,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6802891771870706,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7015663",
+      "combined_score": 0.45699458923463787,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4726614151740569,
+        "shuffle_sensitivity": 0.8103943646737061,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10174",
+      "combined_score": 0.13250235919230996,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3583210250203247,
+        "shuffle_sensitivity": 0.6303031586929314,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7024780",
+      "combined_score": -0.07044346728732834,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7319622950422582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_404975",
+      "combined_score": -0.8047168173075241,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.13112937889943596,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7098928",
+      "combined_score": 0.004039136080972991,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7929090797545929,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_416501",
+      "combined_score": 0.0655492070806128,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8432408469770437,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_406012",
+      "combined_score": 0.9114567084817209,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.816087043740973,
+        "verbatim_completion": 0.17647058823529413
+      }
+    },
+    {
+      "id": "Mercury_SC_407192",
+      "combined_score": -0.5437711130552949,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3446530869796721,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7239890",
+      "combined_score": 0.12264530601422309,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.18116247342130032,
+        "shuffle_sensitivity": 0.7546033332962422,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7282135",
+      "combined_score": -0.12564769646924373,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6867904009487648,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_184328",
+      "combined_score": 0.02776982493088244,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8123271602056632,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2007_7_22",
+      "combined_score": -0.06114082173282244,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7395743589367235,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2010_8_43",
+      "combined_score": 0.19329523119039466,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.47663298567379797,
+        "shuffle_sensitivity": 0.5916500267532183,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7044520",
+      "combined_score": 0.06121745787646658,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8396963120892462,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400518",
+      "combined_score": -0.9460231823266012,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.015502800103379956,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7205573",
+      "combined_score": 0.4511293707080076,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.10756155499632847,
+        "shuffle_sensitivity": 0.46694984125209565,
+        "verbatim_completion": 0.15
+      }
+    },
+    {
+      "id": "Mercury_7222863",
+      "combined_score": 0.01883280492465865,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6634401115750066,
+        "shuffle_sensitivity": 0.3093179524200144,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_4_19",
+      "combined_score": -0.5968719677376051,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3012023184510701,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7121905",
+      "combined_score": 0.05614852810714384,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8355485654020737,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "LEAP__4_10226",
+      "combined_score": 0.3116329729352577,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9284522539651764,
+        "shuffle_sensitivity": 0.35090053575400093,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7210018",
+      "combined_score": -0.3616695875522449,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.49366106963224243,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2013_7_13",
+      "combined_score": -0.24341834060275314,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5904223664166538,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2014_8_11",
+      "combined_score": 0.07707606005929117,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8526729102392313,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "OHAT_2007_5_12",
+      "combined_score": -0.9163197089556157,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.0398082233147344,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2000_4_24",
+      "combined_score": -0.3808927117869456,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.47793138832078896,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_1999_8_31",
+      "combined_score": 0.07324835715364113,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8495408206722236,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7212853",
+      "combined_score": -0.3480650766289063,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5047932154067576,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_400808",
+      "combined_score": -0.36303728012933567,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4925419295743093,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_404895",
+      "combined_score": -0.12899346104204584,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.684052666445737,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2000_8_19",
+      "combined_score": -0.09783768789773079,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7095464611374117,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_415684",
+      "combined_score": -0.0509940561279051,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.74787713986654,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7068705",
+      "combined_score": -0.34604935471945436,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5064426175986738,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2011_5_17668",
+      "combined_score": -0.14704889837436363,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6692784668042655,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_402332",
+      "combined_score": -0.49698417863552324,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.38293737204059825,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400601",
+      "combined_score": -0.026894438514934574,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.767597103185282,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2009_5_27",
+      "combined_score": -0.009085487833317238,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7821696105099527,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7180705",
+      "combined_score": 0.15989379947244353,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9385889105189762,
+        "shuffle_sensitivity": 0.21916340554352742,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_406153",
+      "combined_score": 0.04897530113194386,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8296789381283272,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408919",
+      "combined_score": -0.031089374409369055,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7641645183496537,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7024745",
+      "combined_score": -0.013209993661018701,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7787946563950611,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2008_5_6",
+      "combined_score": 0.08054936823326135,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3172116255679279,
+        "shuffle_sensitivity": 0.6185069754517245,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7090930",
+      "combined_score": -0.20789639385684616,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6194888644038493,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7033373",
+      "combined_score": -0.5277796676332328,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.357738386597331,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405219",
+      "combined_score": -0.33076467669988435,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5189495915567369,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402238",
+      "combined_score": -0.14227101450118274,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.29898425208165824,
+        "shuffle_sensitivity": 0.44979880114812865,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7215863",
+      "combined_score": 0.014667618900815318,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8016060348145091,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7041300",
+      "combined_score": 0.34412417293541897,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3882062022056566,
+        "shuffle_sensitivity": 0.7811376424357411,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7190050",
+      "combined_score": 0.03168936570831955,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8155343978307023,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_1999_4_10",
+      "combined_score": -0.25187654889683186,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.583501279120574,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7222320",
+      "combined_score": -0.12303211804214655,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4223522651176954,
+        "shuffle_sensitivity": 0.37336566750277383,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2006_8_25",
+      "combined_score": 0.1105849885770034,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.041255697001740255,
+        "shuffle_sensitivity": 0.849267586300054,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7206605",
+      "combined_score": 0.00030844249072291274,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5851426663892507,
+        "shuffle_sensitivity": 0.35266081357586504,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408336",
+      "combined_score": 0.7962138043957246,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8372359588375342,
+        "verbatim_completion": 0.14814814814814814
+      }
+    },
+    {
+      "id": "Mercury_416579",
+      "combined_score": 0.12248910335978742,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3520159840839292,
+        "shuffle_sensitivity": 0.6268205029172526,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7001575",
+      "combined_score": -0.17512714777474797,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6463029135352352,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_416142",
+      "combined_score": 0.32636678685094334,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5105444580319288,
+        "shuffle_sensitivity": 0.6752010019667846,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_1998_8_19",
+      "combined_score": 0.5667168482196903,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9171548573877163,
+        "shuffle_sensitivity": 0.5680686623426152,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400187",
+      "combined_score": -0.19288021213688944,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.20758433439956503,
+        "shuffle_sensitivity": 0.4766772966384526,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2011_8_pg74",
+      "combined_score": -0.01578602760542018,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7766867683900626,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7013458",
+      "combined_score": 0.5463844965109975,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6974390241467423,
+        "shuffle_sensitivity": 0.715594352655245,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ30768",
+      "combined_score": 0.08656815639494576,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.16845505236924718,
+        "shuffle_sensitivity": 0.7345770147308842,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2004_9_10",
+      "combined_score": 0.07930879608854062,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8544998882977353,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "AIMS_2009_4_25",
+      "combined_score": 0.500190401779677,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.543765957006711,
+        "shuffle_sensitivity": 0.7926136335996612,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7221498",
+      "combined_score": -0.6096116623802492,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.29077782478982195,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7170853",
+      "combined_score": 0.06993316313214125,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8468281010951584,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7109690",
+      "combined_score": 0.063283203095812,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.841386646791048,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400525",
+      "combined_score": -0.16615269537897187,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6536464272329484,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10616",
+      "combined_score": 0.4774077655553731,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5913928550373946,
+        "shuffle_sensitivity": 0.7383863723883444,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2000_4_21",
+      "combined_score": 0.7236299480356089,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8728319233173841,
+        "shuffle_sensitivity": 0.7295820949007851,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_1999_8_9",
+      "combined_score": 1.8312826792591481,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3038988212852405,
+        "shuffle_sensitivity": 0.5787612139642149,
+        "verbatim_completion": 0.36363636363636365
+      }
+    },
+    {
+      "id": "Mercury_415265",
+      "combined_score": -0.4085424500215963,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.45530647233595317,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "AKDE&ED_2008_8_20",
+      "combined_score": -0.17166362718996497,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6491370040997622,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_415545",
+      "combined_score": -0.07402988730359807,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7290276397169232,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "AIMS_2008_4_6",
+      "combined_score": -0.15802307565548201,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6602986407791193,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_1995_8_L7",
+      "combined_score": -0.16473609673298217,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6548055855974056,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401161",
+      "combined_score": -0.17132407457240215,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6494148493863827,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7086765",
+      "combined_score": 0.437741177347986,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6250494193842513,
+        "shuffle_sensitivity": 0.6807815845061633,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_183768",
+      "combined_score": 0.056675276125638566,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.835979586830287,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TAKS_2009_5_6",
+      "combined_score": 0.5340043387553748,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6122903706368485,
+        "shuffle_sensitivity": 0.7690837773707102,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7222775",
+      "combined_score": -0.5336738687702135,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.35291534616236614,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2008_5_20",
+      "combined_score": -0.4825757242987761,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3947273595650268,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEA_2010_8_9-v1",
+      "combined_score": -0.060253103826112875,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7403007507342548,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7268030",
+      "combined_score": -0.25356415971343466,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5821203599734666,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_8_5",
+      "combined_score": 0.01070085058024213,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7983601523680777,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7239138",
+      "combined_score": 0.35613355722220463,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7493704043389207,
+        "shuffle_sensitivity": 0.5211168774709194,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400662",
+      "combined_score": -0.24415919441104583,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5898161489173264,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_414097",
+      "combined_score": 1.7574224514662247,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6990642160427933,
+        "verbatim_completion": 0.375
+      }
+    },
+    {
+      "id": "Mercury_7083598",
+      "combined_score": 0.8202920218416285,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8808186190105098,
+        "shuffle_sensitivity": 0.8027103020648995,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2012_8_36",
+      "combined_score": 0.06215129376228733,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8404604407866326,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2011_5_36",
+      "combined_score": -0.0786185935884023,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7252728448869787,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2010_3_13",
+      "combined_score": 0.07446948902422472,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8505400346880632,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_405141",
+      "combined_score": 0.04643677805195391,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8276017440904334,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7026968",
+      "combined_score": -0.17672176846208582,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6449980853024135,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7234395",
+      "combined_score": -0.13905672716190898,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6758182105328916,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_402535",
+      "combined_score": 0.20678295210620734,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.45671250406971886,
+        "shuffle_sensitivity": 0.6175704062657632,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2011_8_2",
+      "combined_score": 0.060126427532213464,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8388035560831623,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7086783",
+      "combined_score": -0.13393063380141462,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.68001273239879,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405164",
+      "combined_score": -0.1397585495359701,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6752439312353932,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7018340",
+      "combined_score": 0.27111672191321273,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8020185159364479,
+        "shuffle_sensitivity": 0.4122136646417663,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7240923",
+      "combined_score": -0.2655941018978684,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5722766345495436,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401122",
+      "combined_score": 0.7137989931217741,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8371860998480678,
+        "shuffle_sensitivity": 0.7481708874780125,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7080465",
+      "combined_score": -0.8607034064988637,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.08531730408043627,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2014_7_4",
+      "combined_score": -0.19285137068220992,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6317997362980893,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7267540",
+      "combined_score": -0.035284288852570136,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7607319510668988,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_406684",
+      "combined_score": -0.6637363559041807,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.24648928096016254,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401771",
+      "combined_score": -0.06471610742732348,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.736648814478639,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7228690",
+      "combined_score": 0.47327534948442707,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5721212047872133,
+        "shuffle_sensitivity": 0.7494039636816896,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7216720",
+      "combined_score": 0.004258276381748763,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7930883954085737,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7057785",
+      "combined_score": -0.5419017821927529,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.34618270195663675,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7236495",
+      "combined_score": 0.5044188789722094,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7365001264864255,
+        "verbatim_completion": 0.11428571428571428
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2013_8_9",
+      "combined_score": 0.034876812184240866,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8181425855868346,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2000_8_24",
+      "combined_score": 0.029895325215745047,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8140663906085932,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400298",
+      "combined_score": -0.10690704602203206,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8457778286544797,
+        "shuffle_sensitivity": 0.07019340381157353,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7026425",
+      "combined_score": -0.04169746117590424,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7554842527422228,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2006_9_13-v1",
+      "combined_score": 0.018456992879239645,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8047067610191981,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402084",
+      "combined_score": 0.07158033251258004,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8481759282799568,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_405595",
+      "combined_score": 0.07908154770244967,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8543139380511411,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2013_8_2",
+      "combined_score": -0.5902073344837033,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.30665577939017963,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7213868",
+      "combined_score": -0.04316803866045672,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7542809251824886,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_416375",
+      "combined_score": -0.004103228196291761,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7862464377386849,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2011_5_34",
+      "combined_score": -0.12366275396726147,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6884146173142491,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_411731",
+      "combined_score": 0.5015332037506076,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6443081141056929,
+        "shuffle_sensitivity": 0.7185912662091771,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TAKS_2009_8_24",
+      "combined_score": -0.15496088495346805,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5696785301287022,
+        "shuffle_sensitivity": 0.2371629729597567,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7018060",
+      "combined_score": -0.035765740363662604,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7603379943539348,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402044",
+      "combined_score": -0.016180724748244155,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7763638000631995,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_178938",
+      "combined_score": 0.4547769973123805,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.44269053174529527,
+        "shuffle_sensitivity": 0.8309728423521386,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_416166",
+      "combined_score": -0.23021386870805494,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6012271727662227,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "FCAT_2008_5_7",
+      "combined_score": -0.8444104691559866,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.0986493051070074,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2013_7_15",
+      "combined_score": -0.015933642034622456,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7765659801196454,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_8_2015_14",
+      "combined_score": 0.14518764163332243,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.49591084376469874,
+        "shuffle_sensitivity": 0.5378814345331484,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2004_5_32",
+      "combined_score": 0.07303324041690133,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8493647973748467,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401214",
+      "combined_score": 0.2644320937405115,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4681322545343678,
+        "shuffle_sensitivity": 0.6562105079326861,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7074953",
+      "combined_score": -0.09190826423213094,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7143983230658756,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2008_5_5632",
+      "combined_score": -0.20443250058181228,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6223232599291518,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_400556",
+      "combined_score": -0.6759707334862053,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.23647827244460357,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NAEP_2009_4_S11+1",
+      "combined_score": -0.03158275728318409,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7637607985757561,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ30263",
+      "combined_score": 0.0013084456775306202,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5219341138968482,
+        "shuffle_sensitivity": 0.4007060260559937,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEA_2014_8_2",
+      "combined_score": -0.046818972344093365,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7512934803409685,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_179200",
+      "combined_score": 0.019570225850397263,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.805617684740437,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_407706",
+      "combined_score": -0.18463590596643376,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.24437215976278026,
+        "shuffle_sensitivity": 0.45593694017987796,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7090755",
+      "combined_score": -0.32274833224737276,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5255091154916249,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_406811",
+      "combined_score": 0.5434719828291004,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7760713752652469,
+        "shuffle_sensitivity": 0.6544601377403457,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7082670",
+      "combined_score": -0.512155426332152,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3705232145679897,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7124320",
+      "combined_score": -0.4618029177565193,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4117250974386832,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_409251",
+      "combined_score": -0.14599101594260927,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6732304261345069,
+        "shuffle_sensitivity": 0.16713283759107503,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEA_2014_5_15",
+      "combined_score": -0.08434772364149976,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7205848769569574,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "WASL_2003_5_8",
+      "combined_score": 0.6741525598066737,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8371430508469807,
+        "shuffle_sensitivity": 0.7157616156528213,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7106610",
+      "combined_score": -0.3312980549851006,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5185131447886431,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2010_8_12012",
+      "combined_score": -0.33036713647900007,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5192748862854526,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2010_8_12019",
+      "combined_score": 0.02132416204092112,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8070528758665373,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7159425",
+      "combined_score": 0.6754525639371638,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7007653378116399,
+        "shuffle_sensitivity": 0.8187214247395582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_192343",
+      "combined_score": -0.6432285166040626,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2632702044270696,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_8_9",
+      "combined_score": 0.7778459096075049,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8562668231435677,
+        "shuffle_sensitivity": 0.7863221110043415,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405783",
+      "combined_score": -0.19405071244497368,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6308183524459402,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2013_7_1",
+      "combined_score": -0.6948062531140273,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.22106575585968538,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2008_8_13",
+      "combined_score": -0.008737322870652833,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7824545030091979,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2011_5_35",
+      "combined_score": -0.38988641962981285,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.47057211849298186,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2005_8_17",
+      "combined_score": 0.08441450674441085,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8586777316339582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2009_5_24",
+      "combined_score": -0.108589595081263,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7007485117810842,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "LEAP_2008_4_10287",
+      "combined_score": 0.04630350118414016,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5433927041288822,
+        "shuffle_sensitivity": 0.42149105910615886,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_192868",
+      "combined_score": 0.0673937886611931,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.16533760952749588,
+        "shuffle_sensitivity": 0.7212164598597357,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2004_8_22",
+      "combined_score": 1.0632579732025758,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.18794250630565534,
+        "shuffle_sensitivity": 0.7998780315296116,
+        "verbatim_completion": 0.17647058823529413
+      }
+    },
+    {
+      "id": "Mercury_7013195",
+      "combined_score": -0.06697233298002365,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.734802615677787,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2010_5_14",
+      "combined_score": -0.021546196776838597,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7719734021203428,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7220343",
+      "combined_score": -0.02103120263692336,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7723948057173455,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_1995_8_K16",
+      "combined_score": -0.3040079573748637,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5408437780991533,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408031",
+      "combined_score": 1.3707219170528129,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6883559816044968,
+        "verbatim_completion": 0.3
+      }
+    },
+    {
+      "id": "Mercury_7015925",
+      "combined_score": -0.02220901359457099,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4147932507244978,
+        "shuffle_sensitivity": 0.46151385825156815,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7085873",
+      "combined_score": 0.052683920260053044,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.832713585164807,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7217035",
+      "combined_score": 0.14260649261852198,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.34706228791826277,
+        "shuffle_sensitivity": 0.6469831400166216,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7003728",
+      "combined_score": -0.058684424128236254,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7415843522667677,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2003_4_pg10",
+      "combined_score": -0.11543554094529354,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6951466884040977,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401120",
+      "combined_score": -0.02384788691273733,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7700900010730746,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_407132",
+      "combined_score": -0.10133971082483072,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7066808653104208,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7074988",
+      "combined_score": -0.4041837271247437,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.45887307895282464,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7227798",
+      "combined_score": -0.6477695592436312,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.25955441126722545,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401827",
+      "combined_score": -0.03196513984483064,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7634479068855021,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401403",
+      "combined_score": -0.15452450338319637,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6631614130432032,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2010_5_19",
+      "combined_score": 0.31803001455242613,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4584192113252201,
+        "shuffle_sensitivity": 0.7073252134960445,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEA_2014_5_12",
+      "combined_score": -0.0182807032626265,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7746454533267982,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MSA_2012_5_22",
+      "combined_score": 0.0751840803747557,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8511247624396262,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_407577",
+      "combined_score": 0.0011668734530489028,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7905587970831379,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_401760",
+      "combined_score": -0.22346595332562763,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6067487808662543,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_8_33",
+      "combined_score": 0.12850948651055522,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8366293989713887,
+        "shuffle_sensitivity": 0.269662735537077,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2007_8_pg34",
+      "combined_score": 0.05316963622928207,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8331110313504829,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7090633",
+      "combined_score": 0.07353105803759712,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8497721459634094,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_404924",
+      "combined_score": 0.055875830151889336,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8353254251945784,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7218488",
+      "combined_score": 0.03772201043226743,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8204707223227236,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2010_8_12",
+      "combined_score": -0.02365365843142199,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7702489321643684,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2011_4_16",
+      "combined_score": -0.08034372631934877,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7238612227309527,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2008_3_33",
+      "combined_score": -0.007352277476730326,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.783587842334393,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7247853",
+      "combined_score": -0.583843932845443,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.31186275191995866,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7094553",
+      "combined_score": -0.008518231569841897,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7826337785680401,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_415492",
+      "combined_score": 0.06431347748407533,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8422296880986353,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7135853",
+      "combined_score": 0.015370773854170086,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8021814045199639,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_400363",
+      "combined_score": -0.04903512835130509,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7494800691959177,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2008_8_10",
+      "combined_score": 0.07179675072619689,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8483530165351553,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_415584",
+      "combined_score": -0.1952439146017121,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6298419924413706,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2003_4_pg12",
+      "combined_score": -0.14592010047433662,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6702021268199674,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "AIMS_2008_4_18",
+      "combined_score": -0.08351385241488347,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7212672077003538,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7246960",
+      "combined_score": 0.4882763455297231,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6691495944371124,
+        "shuffle_sensitivity": 0.689183017968277,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7217350",
+      "combined_score": -0.23576924958266782,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5966813783545286,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402052",
+      "combined_score": 2.33382082147765e-05,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7896230779591266,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2003_8_5",
+      "combined_score": -0.2552853372099076,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5807119742621006,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7015733",
+      "combined_score": -0.4492897371009883,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4219642417890506,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2014_5_12",
+      "combined_score": -0.27418665552424987,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5652456166700164,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7214428",
+      "combined_score": 0.006112949279006338,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7946060162310095,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_405465",
+      "combined_score": 0.6418832336564801,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9663122101010851,
+        "shuffle_sensitivity": 0.5928465264968164,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7101518",
+      "combined_score": -0.33579136166261203,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5148364124734924,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NAEP_2005_8_S11+11",
+      "combined_score": 0.0334421058220286,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8169686102445551,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7005058",
+      "combined_score": 0.018755128923524503,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.804950716419309,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7058503",
+      "combined_score": -0.6497927763173994,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.25789887601677863,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_8_2",
+      "combined_score": -0.2359193763533804,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5965585343136331,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_407259",
+      "combined_score": 0.043556749245095575,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8252451065976626,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7017798",
+      "combined_score": 0.4186240582164956,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6544856612077474,
+        "shuffle_sensitivity": 0.6431450432195028,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7124128",
+      "combined_score": -0.3376850584218256,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5132868596453839,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402258",
+      "combined_score": 0.4412140467576745,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7182606070209424,
+        "shuffle_sensitivity": 0.6139795963525634,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_2011_4_pg97",
+      "combined_score": -0.031675780949054835,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6613110732438476,
+        "shuffle_sensitivity": 0.2695790899734799,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7162558",
+      "combined_score": 1.005510560914964,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8480900285608222,
+        "verbatim_completion": 0.1875
+      }
+    },
+    {
+      "id": "Mercury_416414",
+      "combined_score": -0.12233045977007287,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6895047919850784,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405081",
+      "combined_score": -0.6431402312456912,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.26334244557448633,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2008_3_20",
+      "combined_score": -0.7179900517958389,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.20209517852785405,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_177345",
+      "combined_score": -0.09928296410915892,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7083638368181165,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408033",
+      "combined_score": -0.7839827299624145,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.14809543406510364,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "TIMSS_1995_8_I10",
+      "combined_score": -0.6712875094292279,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.24031040821124497,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_415085",
+      "combined_score": 0.1505513825565319,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6375732850557364,
+        "shuffle_sensitivity": 0.43642581876902087,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_416550",
+      "combined_score": 0.089643481882806,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6909746911460912,
+        "shuffle_sensitivity": 0.34668736110766385,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7137043",
+      "combined_score": 0.029076308233558792,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8133962146288114,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7216633",
+      "combined_score": 0.05532360736472498,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8348735585599479,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408620",
+      "combined_score": -0.16971678681023808,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6507300426903412,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "ACTAAP_2009_7_5",
+      "combined_score": -0.2310995308852506,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6005024631078547,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_406674",
+      "combined_score": -0.1666932064054648,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6532041439657617,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7099348",
+      "combined_score": -0.21988468863637695,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6096792177487349,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_403937",
+      "combined_score": -0.330796369509051,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5189236583222653,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_8_26",
+      "combined_score": 0.049999609488563926,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8305170976188229,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_8_2015_17",
+      "combined_score": 0.21685371933853298,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.15784275763962796,
+        "shuffle_sensitivity": 0.8491147045805817,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7228393",
+      "combined_score": -0.2439582535450644,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5899805725430464,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_415745",
+      "combined_score": -0.6998415316002078,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.21694554496498283,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_415338",
+      "combined_score": 1.3650169391417588,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6523322158091261,
+        "verbatim_completion": 0.3076923076923077
+      }
+    },
+    {
+      "id": "Mercury_7108238",
+      "combined_score": 0.49732678744263403,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.513054220653105,
+        "shuffle_sensitivity": 0.8132170274712448,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_177485",
+      "combined_score": 0.08999580647628823,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8632447346358768,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405120",
+      "combined_score": -0.5801053717477292,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3149218995336582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2009_8_25",
+      "combined_score": -0.22842931928585636,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6026874137422994,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2009_3_26",
+      "combined_score": 0.08992161592045024,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.058312798793479836,
+        "shuffle_sensitivity": 0.8196150000344246,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7264180",
+      "combined_score": 0.5095115557801715,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5897886478446488,
+        "shuffle_sensitivity": 0.7658545002431506,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7004183",
+      "combined_score": -0.05214458621201069,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7469356970843334,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_LBS10026",
+      "combined_score": 0.04690121753023825,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8279817803890431,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_8_20",
+      "combined_score": 0.04085981973341467,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8230382935312612,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_407359",
+      "combined_score": 0.017692461560269143,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8840376031232648,
+        "shuffle_sensitivity": 0.14356308697383405,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "AKDE&ED_2012_4_39",
+      "combined_score": -0.20407551755128428,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6226153679775234,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7034790",
+      "combined_score": -0.1041883647645871,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7043499008900745,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7194268",
+      "combined_score": 0.05621075861996412,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8355994866843044,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "VASoL_2008_3_21",
+      "combined_score": -0.12632440895200575,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6862366682899437,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2010_5_11981",
+      "combined_score": 0.7031668900137089,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7086693810239864,
+        "shuffle_sensitivity": 0.8354936011231918,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402241",
+      "combined_score": 0.019499698554775916,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8055599744603422,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2013_4_23",
+      "combined_score": 0.025357445191930242,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8103531853183019,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ40385",
+      "combined_score": 0.49717166103557275,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.46239287054414835,
+        "shuffle_sensitivity": 0.8509422580458563,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MDSA_2007_8_4",
+      "combined_score": -0.02342703601721481,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7704343701977489,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_405469",
+      "combined_score": -0.9153300159157436,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.040618058174213156,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_402036",
+      "combined_score": -0.5167427386040013,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.36676956041524517,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7230423",
+      "combined_score": 0.09758868233998504,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.08349880806790166,
+        "shuffle_sensitivity": 0.807070726422313,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2012_8_23649",
+      "combined_score": -0.5287031600856835,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3569827216079553,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_416135",
+      "combined_score": 0.042684105663310865,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8245310496487313,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEAP_2005_8_33",
+      "combined_score": 0.4869979015877457,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7121313304613246,
+        "shuffle_sensitivity": 0.6560226468218173,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_415686",
+      "combined_score": 0.0784079951304618,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8537627910484726,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NCEOGA_2013_5_49",
+      "combined_score": 0.07707712211949995,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8526737792898816,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7027265",
+      "combined_score": -0.6043587082059675,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.29507615289176314,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEAP_2004_8_48",
+      "combined_score": 0.05467017067558737,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8343388717550428,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2001_8_9",
+      "combined_score": -0.31081989384063835,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5352697835490332,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2004_9_20",
+      "combined_score": -0.06463290289247554,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7367168981470815,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2013_8_27",
+      "combined_score": 0.05671713066669319,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.23732971648218082,
+        "shuffle_sensitivity": 0.6586904174300877,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400871",
+      "combined_score": -0.2169580102317119,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6120740271483117,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_408250",
+      "combined_score": 0.0485376266875258,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8293208028197889,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2013_8_36",
+      "combined_score": 0.843871520096321,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.908993176791991,
+        "shuffle_sensitivity": 0.8009537479738464,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_LBS10523",
+      "combined_score": -0.33259215321821867,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5174542246805414,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7044083",
+      "combined_score": -0.5498075666673028,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3397136457936835,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_402144",
+      "combined_score": 1.4629279322860809,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7638052799032711,
+        "verbatim_completion": 0.3
+      }
+    },
+    {
+      "id": "NCEOGA_2013_8_49",
+      "combined_score": -0.9339395161961532,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.02539048615197972,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2015_4_12",
+      "combined_score": 0.05752229906998525,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8366726792129503,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_4_20",
+      "combined_score": -0.04776367106626124,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7505204629243608,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7068600",
+      "combined_score": 0.20664399252141352,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.17074800855803995,
+        "shuffle_sensitivity": 0.831118109207055,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2004_5_14",
+      "combined_score": -0.09254458710900919,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7138776399582664,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_409024",
+      "combined_score": -0.6199956892664912,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.28228090037441916,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7007928",
+      "combined_score": -0.10079614918186745,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7071256448016499,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7038850",
+      "combined_score": -0.04214140693976491,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7551209858091353,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_400598",
+      "combined_score": -0.044445566639215825,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7532355639952539,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7239313",
+      "combined_score": -0.12036456172445895,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6911134248675781,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7011760",
+      "combined_score": -0.16972514718857112,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6507232016542424,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7008785",
+      "combined_score": -0.7017884083866825,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2153524765839006,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_180863",
+      "combined_score": 0.007778434136956211,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7959688303981942,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7014560",
+      "combined_score": -0.025308200489455243,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7688950721480928,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_405059",
+      "combined_score": -0.3852746990006011,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.47434574524112555,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_179130",
+      "combined_score": 0.013325727211100882,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8005080068157308,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2011_5_17671",
+      "combined_score": 0.05457661016785907,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8342623141179004,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2013_4_14",
+      "combined_score": -0.06858281652310501,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7334848073662598,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2012_8_6",
+      "combined_score": 0.07570059796766358,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8515474126305631,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_407227",
+      "combined_score": -0.5912501139662427,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3058025055550734,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2008_4_27",
+      "combined_score": 0.04382555287173932,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8254650601978603,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_401779",
+      "combined_score": -0.27978435547153313,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5606651938847876,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "OHAT_2008_5_30",
+      "combined_score": -0.7117312562544288,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0423425106803913,
+        "shuffle_sensitivity": 0.17557989870821622,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400181",
+      "combined_score": -0.039282010305494316,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7574607406403988,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7222670",
+      "combined_score": 0.40203492681088426,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.493619370622587,
+        "shuffle_sensitivity": 0.7497636329618106,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7016328",
+      "combined_score": 0.04451238992695129,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8260270774776466,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MEAP_2005_8_14",
+      "combined_score": 1.447735659373795,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4268486204822982,
+        "shuffle_sensitivity": 0.6962050387724491,
+        "verbatim_completion": 0.23529411764705882
+      }
+    },
+    {
+      "id": "TIMSS_2007_8_pg4",
+      "combined_score": 0.6603247787502947,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7431090832511955,
+        "shuffle_sensitivity": 0.7747052522636967,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "NYSEDREGENTS_2010_8_34",
+      "combined_score": 0.02225795794368239,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8078169718470367,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7202125",
+      "combined_score": -0.11602058486529739,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6946679652630251,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7242900",
+      "combined_score": 0.3022668152493656,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.567788967766345,
+        "shuffle_sensitivity": 0.612709905713825,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400588",
+      "combined_score": 0.6664108629745231,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9219162815889824,
+        "shuffle_sensitivity": 0.6460876077952631,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7282695",
+      "combined_score": -0.6015374499446687,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.29738470028529385,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7018498",
+      "combined_score": 0.041080224082031144,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8232186435160539,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "CSZ20770",
+      "combined_score": 1.0744337676087103,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5019535435011098,
+        "shuffle_sensitivity": 0.5744061538986435,
+        "verbatim_completion": 0.17647058823529413
+      }
+    },
+    {
+      "id": "Mercury_7174895",
+      "combined_score": 0.06974369259804396,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8466730632832568,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_400375",
+      "combined_score": 0.08750078196132881,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8612031341132245,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_SC_415394",
+      "combined_score": -0.26469522737475987,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.573012155457324,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_412693",
+      "combined_score": -0.0044354739040339125,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7859745714678292,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "Mercury_7056665",
+      "combined_score": -0.06381732101496256,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7373842632881504,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "MCAS_2003_8_26",
+      "combined_score": -0.7107148084509876,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.20804828260607713,
+        "verbatim_completion": 0.0
+      }
+    }
+  ]
+}

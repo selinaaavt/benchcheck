@@ -36,7 +36,8 @@ clean benchmarks.
 
 Running gpt2 against ARC-Easy (a multiple-choice science benchmark):
 
-<!-- RESULTS_PLACEHOLDER -->
+- Analyzed **500 questions** in 2016 s (0.25 questions/sec on CPU).
+- **86 questions (17.2%)** flagged as showing memorization fingerprints (95% CI 14.0%–20.6%).
 
 Each flagged question was independently picked out by two or three checks. See
 [FINDINGS.md](FINDINGS.md) for the full writeup and example questions.
@@ -112,4 +113,3 @@ tests/         26 tests
 
 See [DESIGN.md](DESIGN.md) for the threat model, why each check exists, and the
 bugs found while building the scoring layer.
-```

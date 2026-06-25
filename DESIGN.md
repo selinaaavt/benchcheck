@@ -119,12 +119,28 @@ experiment and all 26 tests run in under a second and stay reproducible (no
 RNG without an explicit seed). Swapping in a real model is a one-flag change
 (`--model hf:gpt2`) thanks to the `Scorer`/`Generator` protocol split.
 
-## 7. What I'd do next
+## 7. Performance
+
+The log-prob checks dominate runtime: `shuffle_sensitivity` scores ~16 rendered
+blocks per multiple-choice question. The optimization was batching — score all
+blocks for a question in one padded forward pass instead of one at a time
+(`HFModel.logprob_batch`). Two correctness traps showed up and are worth noting,
+because batched scoring must be numerically identical to single scoring:
+  - **Padding leakage:** with left padding, the first real token is predicted
+    from a pad token. Fixed by only counting a position when both it and its
+    predecessor are real (`mask[:,1:] * mask[:,:-1]`).
+  - **Position embeddings:** gpt2 uses absolute position embeddings, so left
+    padding shifts real tokens to the wrong positions. Fixed by passing
+    `position_ids` derived from the attention mask.
+After both fixes, batched and single scoring agree to <1e-3. On CPU the batch
+gives ~25% wall-time improvement; on GPU the gain is larger.
+
+## 8. What I'd do next
 
 - Replace synthetic paraphrases with a held-out paraphrase model for stronger
   controls.
 - Add a learned combiner (logistic regression over signals) trained on the
   calibration data, vs. the current unweighted vote.
-- Run against real open-weight models and publish a ranking of public benchmarks
-  by apparent contamination — the result no one else has.
-```
+- Run against larger open-weight models and more benchmarks, and publish a
+  ranking by apparent contamination. The gpt2 / ARC-Easy run in FINDINGS.md is
+  the first data point.

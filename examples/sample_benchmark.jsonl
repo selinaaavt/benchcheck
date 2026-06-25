@@ -1,0 +1,16 @@
+{"id": "geo1", "prompt": "What is the capital of France?", "answer": "B", "choices": ["Lyon", "Paris", "Marseille", "Nice"]}
+{"id": "geo2", "prompt": "Which river flows through Egypt?", "answer": "A", "choices": ["Nile", "Amazon", "Danube", "Volga"]}
+{"id": "sci1", "prompt": "What gas do plants primarily absorb during photosynthesis?", "answer": "C", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"]}
+{"id": "sci2", "prompt": "What is the chemical symbol for gold?", "answer": "D", "choices": ["Go", "Gd", "Ag", "Au"]}
+{"id": "math1", "prompt": "What is the value of pi rounded to two decimal places?", "answer": "B", "choices": ["3.10", "3.14", "3.16", "3.41"]}
+{"id": "math2", "prompt": "How many sides does a hexagon have?", "answer": "C", "choices": ["four", "five", "six", "seven"]}
+{"id": "hist1", "prompt": "In what year did the Second World War end?", "answer": "A", "choices": ["1945", "1939", "1918", "1950"]}
+{"id": "hist2", "prompt": "Who was the first president of the United States?", "answer": "B", "choices": ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"]}
+{"id": "lit1", "prompt": "Who wrote the play Romeo and Juliet?", "answer": "D", "choices": ["Charles Dickens", "Mark Twain", "Jane Austen", "William Shakespeare"]}
+{"id": "lit2", "prompt": "What is the first book of the Old Testament?", "answer": "A", "choices": ["Genesis", "Exodus", "Leviticus", "Numbers"]}
+{"id": "sci3", "prompt": "What planet is known as the Red Planet?", "answer": "C", "choices": ["Venus", "Jupiter", "Mars", "Saturn"]}
+{"id": "sci4", "prompt": "What is the powerhouse of the cell?", "answer": "B", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"]}
+{"id": "geo3", "prompt": "Which is the largest ocean on Earth?", "answer": "D", "choices": ["Atlantic", "Indian", "Arctic", "Pacific"]}
+{"id": "math3", "prompt": "What is seven multiplied by eight?", "answer": "A", "choices": ["56", "54", "64", "49"]}
+{"id": "hist3", "prompt": "Which ancient civilization built the pyramids of Giza?", "answer": "B", "choices": ["Romans", "Egyptians", "Greeks", "Persians"]}
+{"id": "sci5", "prompt": "What force keeps planets in orbit around the sun?", "answer": "C", "choices": ["Magnetism", "Friction", "Gravity", "Tension"]}

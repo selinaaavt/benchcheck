@@ -1,0 +1,8 @@
+# Core dependencies (the whole tool runs on these via the mock backend).
+numpy>=1.26,<2.1
+scipy>=1.11,<1.14
+pytest>=7.0
+
+# Optional: real models. Install separately to keep the core light.
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install transformers

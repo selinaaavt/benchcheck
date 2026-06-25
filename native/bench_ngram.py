@@ -60,44 +60,59 @@ def main() -> None:
     p.add_argument("--words-per-doc", type=int, default=60)
     p.add_argument("--queries", type=int, default=2000)
     p.add_argument("--n", type=int, default=8)
+    p.add_argument("--trials", type=int, default=5,
+                   help="repeat scan timing N times and report the median (scans are short, so jitter is real)")
     args = p.parse_args()
 
     print(f"building synthetic corpus: {args.corpus_docs} docs x {args.words_per_doc} words")
     corpus = synth_corpus(args.corpus_docs, args.words_per_doc)
     queries = synth_queries(corpus, args.queries)
 
+    def median(xs):
+        s = sorted(xs)
+        return s[len(s) // 2]
+
     # --- C++ ---
     t0 = time.perf_counter()
     idx = ngram_scan.NgramIndex(corpus, args.n)
     cpp_build = time.perf_counter() - t0
+    cpp_scans = [idx.scan(queries)["scan_seconds"] for _ in range(args.trials)]
+    cpp_scan = median(cpp_scans)
     res = idx.scan(queries)
     print("\n[C++]")
     print(f"  index size        : {idx.size():,} distinct n-grams")
     print(f"  build time        : {cpp_build:.3f} s "
           f"({idx.ngrams_processed()/idx.build_seconds():,.0f} n-grams/s)")
-    print(f"  scan time         : {res['scan_seconds']*1000:.1f} ms for {len(queries)} queries")
-    print(f"  scan throughput   : {res['ngrams_per_second']:,.0f} query-n-grams/s")
+    print(f"  scan time (median): {cpp_scan*1000:.1f} ms for {len(queries)} queries "
+          f"over {args.trials} trials")
+    print(f"  scan throughput   : {res['query_ngrams']/cpp_scan:,.0f} query-n-grams/s")
 
     # --- Python ---
     t0 = time.perf_counter()
     pg = build_corpus_ngrams(corpus, args.n)
     py_build = time.perf_counter() - t0
-    t0 = time.perf_counter()
-    py_total = 0
-    for q in queries:
-        g = _ngrams(_tokens(q), args.n)
-        py_total += len(g)
-        if g:
-            _ = sum(1 for x in g if x in pg) / len(g)
-    py_scan = time.perf_counter() - t0
+
+    def py_scan_once():
+        total = 0
+        t = time.perf_counter()
+        for q in queries:
+            g = _ngrams(_tokens(q), args.n)
+            total += len(g)
+            if g:
+                _ = sum(1 for x in g if x in pg) / len(g)
+        return time.perf_counter() - t, total
+
+    py_results = [py_scan_once() for _ in range(args.trials)]
+    py_scan = median([r[0] for r in py_results])
+    py_total = py_results[0][1]
     print("\n[Python]")
     print(f"  build time        : {py_build:.3f} s")
-    print(f"  scan time         : {py_scan*1000:.1f} ms")
+    print(f"  scan time (median): {py_scan*1000:.1f} ms over {args.trials} trials")
     print(f"  scan throughput   : {py_total/py_scan:,.0f} query-n-grams/s")
 
-    print("\n[speedup]")
+    print("\n[speedup, median of trials]")
     print(f"  build : {py_build/cpp_build:.1f}x")
-    print(f"  scan  : {py_scan/res['scan_seconds']:.1f}x")
+    print(f"  scan  : {py_scan/cpp_scan:.1f}x")
 
 
 if __name__ == "__main__":

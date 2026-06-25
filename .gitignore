@@ -7,4 +7,5 @@ build/
 
 # compiled C++ extension (build with: python native/build.py)
 *.so
-results/
+# scratch run output at the repo root (committed reports live in examples/results/)
+/results/

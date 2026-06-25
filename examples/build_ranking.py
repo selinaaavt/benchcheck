@@ -24,17 +24,18 @@ def _load(path: str) -> dict | None:
 
 def main() -> None:
     rows = []
-
-    # The earlier ARC-Easy 500 run, if present.
-    arc = _load(str(ROOT / "examples" / "results_gpt2_arc500.json"))
-    if arc:
-        rows.append(("ARC-Easy", arc))
-
-    for path in sorted(glob.glob(str(ROOT / "results" / "gpt2_*.json"))):
-        name = Path(path).stem.replace("gpt2_", "")
-        d = _load(path)
-        if d:
-            rows.append((name, d))
+    # Committed result JSONs live in examples/results/; fall back to results/.
+    search_dirs = [ROOT / "examples" / "results", ROOT / "results"]
+    seen = set()
+    for d in search_dirs:
+        for path in sorted(glob.glob(str(d / "gpt2_*.json"))):
+            name = Path(path).stem.replace("gpt2_", "")
+            if name in seen:
+                continue
+            payload = _load(path)
+            if payload:
+                seen.add(name)
+                rows.append((name, payload))
 
     if not rows:
         print("no result JSONs found yet (run examples/run_all_benchmarks.sh)")

@@ -34,13 +34,20 @@ clean benchmarks.
 
 ## Results on a real model
 
-Running gpt2 against ARC-Easy (a multiple-choice science benchmark):
+Running gpt2 against four public multiple-choice science benchmarks (1,400
+questions total, on CPU), ranked by the fraction showing memorization
+fingerprints:
 
-- Analyzed **500 questions** in 2016 s (0.25 questions/sec on CPU).
-- **86 questions (17.2%)** flagged as showing memorization fingerprints (95% CI 14.0%–20.6%).
+| Benchmark | Questions | Flagged | Rate | 95% CI |
+|---|---|---|---|---|
+| ARC-Challenge | 300 | 56 | 18.7% | 14.3%–23.3% |
+| ARC-Easy | 500 | 86 | 17.2% | 14.0%–20.6% |
+| SciQ | 300 | 45 | 15.0% | 11.0%–19.0% |
+| OpenBookQA | 300 | 40 | 13.3% | 9.7%–17.3% |
 
-Each flagged question was independently picked out by two or three checks. See
-[FINDINGS.md](FINDINGS.md) for the full writeup and example questions.
+Each flagged question was independently picked out by at least two checks. The
+rates are a lower bound (recall < 1). See [FINDINGS.md](FINDINGS.md) for the full
+writeup, per-benchmark detail, and example questions.
 
 ## How the scoring works
 

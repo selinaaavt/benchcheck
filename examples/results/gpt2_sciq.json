@@ -1,0 +1,3336 @@
+{
+  "dataset": "examples/sciq.jsonl",
+  "model": "hf:gpt2",
+  "n_items": 300,
+  "n_flagged": 45,
+  "contamination_rate": 0.15,
+  "ci_low": 0.11,
+  "ci_high": 0.19,
+  "per_signal_mean": {
+    "ngram_overlap": 0.0,
+    "perturbation_gap": 0.11186517074767909,
+    "shuffle_sensitivity": 0.674606406131722,
+    "verbatim_completion": 0.004651154401154401
+  },
+  "signals_run": [
+    "ngram_overlap",
+    "perturbation_gap",
+    "shuffle_sensitivity",
+    "verbatim_completion"
+  ],
+  "signals_skipped": {},
+  "timing": {
+    "n_items": 300,
+    "wall_seconds": 908.1524270369991,
+    "items_per_second": 0.3303410210318996,
+    "ms_per_item": 3027.174756789997,
+    "per_signal_seconds": {
+      "ngram_overlap": 0.006620998025027802,
+      "perturbation_gap": 29.015252523036906,
+      "shuffle_sensitivity": 611.8973965880068,
+      "verbatim_completion": 267.23137619000045
+    }
+  },
+  "items": [
+    {
+      "id": "sciq_0",
+      "combined_score": 0.019821709668381877,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7842317127124211,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_1",
+      "combined_score": 0.04133518792874772,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7981677672101368,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_2",
+      "combined_score": -0.35716141434375015,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5400286462733235,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_3",
+      "combined_score": 0.12863628700968965,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8547198904780829,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_4",
+      "combined_score": -0.09411949831887331,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7104225933859887,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_5",
+      "combined_score": -0.47178099800600937,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.46578008706355994,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_6",
+      "combined_score": 0.3398335309142189,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.584895810363288,
+        "shuffle_sensitivity": 0.5925971541063954,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_7",
+      "combined_score": -0.5433474789270065,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.41942057391304494,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_8",
+      "combined_score": -0.0199281927288378,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7584824219941886,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_9",
+      "combined_score": 0.04241983944528483,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7988703854693766,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_10",
+      "combined_score": -1.148822922202964,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.02720418415019075,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_11",
+      "combined_score": -0.2291258252225867,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6229678588936695,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_12",
+      "combined_score": -0.27022599813693515,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5963438865788291,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_13",
+      "combined_score": -0.24508695544167972,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6126285182307415,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_14",
+      "combined_score": -0.5501465636496213,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.41501624588750624,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_15",
+      "combined_score": -0.25660245149976757,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6051689815304676,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_16",
+      "combined_score": -0.09875872717609632,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7074173821691329,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_17",
+      "combined_score": 0.012289499574691144,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7793524789091498,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_18",
+      "combined_score": -0.36183322671014306,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5370023280297924,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_19",
+      "combined_score": 0.11048413126036533,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8429612418433965,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_20",
+      "combined_score": -0.1274078356288733,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6888589913837425,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_21",
+      "combined_score": 0.4678362132964351,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.37726748228704543,
+        "shuffle_sensitivity": 0.8171295223797844,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_22",
+      "combined_score": 0.3888426473523306,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6065418207453352,
+        "shuffle_sensitivity": 0.6095805763906734,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_23",
+      "combined_score": -0.4309181000547079,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.49225035681222545,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_24",
+      "combined_score": -0.2560068709568087,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6055547881770732,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_25",
+      "combined_score": 0.32663147075905596,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4974376794350426,
+        "shuffle_sensitivity": 0.6436965706174482,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_26",
+      "combined_score": -0.10289145524703625,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7047402732923705,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_27",
+      "combined_score": -0.10153143421171965,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7056212711039206,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_28",
+      "combined_score": -0.09781222390619074,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7080305104132983,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_29",
+      "combined_score": 0.06935571560754766,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8163189743771302,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_30",
+      "combined_score": 0.004999101524281575,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.774629886713181,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_31",
+      "combined_score": 0.8262735822154055,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6779205141837822,
+        "shuffle_sensitivity": 0.8442562983016078,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_32",
+      "combined_score": 0.09489855755471938,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8328651801135647,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_33",
+      "combined_score": -0.06696575245650348,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.026089258643813507,
+        "shuffle_sensitivity": 0.7102179382233081,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_34",
+      "combined_score": 0.0008052941799867666,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7719132117526896,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_35",
+      "combined_score": -0.9642593469935362,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.14676123630527574,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_36",
+      "combined_score": -0.0014565356709195995,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7704480379818418,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_37",
+      "combined_score": -0.1149771641880045,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6969113626714806,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_38",
+      "combined_score": 0.18617939545418963,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.43207563203243726,
+        "shuffle_sensitivity": 0.5972948546250841,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_39",
+      "combined_score": -0.21049499493628968,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6350365845114075,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_40",
+      "combined_score": -0.1216328585366071,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6925999204193393,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_41",
+      "combined_score": -0.2196096078772832,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6291322978528767,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_42",
+      "combined_score": -0.2446326141529798,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6129228325616579,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_43",
+      "combined_score": -0.11030143815621177,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4607645793187374,
+        "shuffle_sensitivity": 0.3856722486897712,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_44",
+      "combined_score": 0.11076995697617559,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8431463947370463,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_45",
+      "combined_score": -0.0336837519718985,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7495718115881058,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_46",
+      "combined_score": -0.11160450251273779,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6990961138465365,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_47",
+      "combined_score": -0.475913355393477,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.46310321830906004,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_48",
+      "combined_score": -0.27606153242896075,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5925637296496364,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_49",
+      "combined_score": -0.09477664120361715,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7099969077323839,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_50",
+      "combined_score": 0.7701842056548669,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6840807119846501,
+        "shuffle_sensitivity": 0.803720972820899,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_51",
+      "combined_score": -0.4077696543205038,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5072455146098189,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_52",
+      "combined_score": -0.11539138484647055,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6966430377822832,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_53",
+      "combined_score": 0.3658238255769841,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5833089803424212,
+        "shuffle_sensitivity": 0.6105155212982631,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_54",
+      "combined_score": 0.07322721315572403,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.015686728059283617,
+        "shuffle_sensitivity": 0.8081276111383583,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_55",
+      "combined_score": -0.1544614070801845,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6713341615286883,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_56",
+      "combined_score": 0.0014011049940649903,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.772299167564894,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_57",
+      "combined_score": 0.3397397085160827,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5235166010329468,
+        "shuffle_sensitivity": 0.6344005317133218,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_58",
+      "combined_score": 0.047472881571567295,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.802143657675706,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_59",
+      "combined_score": -0.30209693896952844,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.575698449194826,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_60",
+      "combined_score": 0.060128222690491596,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8103415660467307,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_61",
+      "combined_score": -0.10060213544111074,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7062232545747071,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_62",
+      "combined_score": -0.24903660832105157,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6100700022572743,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_63",
+      "combined_score": 0.44913788931057375,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.33822963085948665,
+        "shuffle_sensitivity": 0.8316431374485025,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_64",
+      "combined_score": -0.1515629882307983,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6732117065055351,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_65",
+      "combined_score": 0.01223702716184278,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7793184881989433,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_66",
+      "combined_score": -0.11872126584156859,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6944859991827144,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_67",
+      "combined_score": -0.0068123977223547225,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7669786043306337,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_68",
+      "combined_score": -0.007480005269789501,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7665461398517829,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_69",
+      "combined_score": -0.12652578875837542,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6894303659010582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_70",
+      "combined_score": 0.8223344651885127,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6991944507264967,
+        "shuffle_sensitivity": 0.8271945578931691,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_71",
+      "combined_score": 0.0781549535990533,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.822018966665867,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_72",
+      "combined_score": -0.09722936584120004,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7084080756614576,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_73",
+      "combined_score": 0.013796680967483967,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7803288046233696,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_74",
+      "combined_score": 0.08421371562271576,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8259437266107061,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_75",
+      "combined_score": -0.14872778976101822,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6750482984275158,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_76",
+      "combined_score": -0.6214182277200604,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.36884770993028826,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_77",
+      "combined_score": 0.6994082801666097,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6295623292231001,
+        "shuffle_sensitivity": 0.7950582430802798,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_78",
+      "combined_score": -0.5073814204291839,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.44271875681158124,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_79",
+      "combined_score": -0.007552130683993595,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.766499418271439,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_80",
+      "combined_score": 0.08256197863614076,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.824873760314126,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_81",
+      "combined_score": -0.28192816750572125,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5887634261766937,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_82",
+      "combined_score": -0.9097414293150514,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.1820769887221712,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_83",
+      "combined_score": 1.5832658930850503,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8531518940972358,
+        "verbatim_completion": 0.21428571428571427
+      }
+    },
+    {
+      "id": "sciq_84",
+      "combined_score": 1.9000961904452531,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8009749445607718,
+        "verbatim_completion": 0.2727272727272727
+      }
+    },
+    {
+      "id": "sciq_85",
+      "combined_score": 0.08497400364013177,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8264362278750967,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_86",
+      "combined_score": 0.6864923628215766,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9180801152353439,
+        "shuffle_sensitivity": 0.5899057991427189,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_87",
+      "combined_score": -0.17828836314448615,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.655899476620552,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_88",
+      "combined_score": -0.7799559623475056,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.26614974156955046,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_89",
+      "combined_score": -0.302985347552423,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5751229536716188,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_90",
+      "combined_score": 0.022899061491694357,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7862251673365084,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_91",
+      "combined_score": 0.05699808924441949,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8083139204116709,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_92",
+      "combined_score": 0.5321688701702751,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.428001863010843,
+        "shuffle_sensitivity": 0.8241993227583919,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_93",
+      "combined_score": -0.059754686003999406,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7326835170463969,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_94",
+      "combined_score": 0.1199197850474984,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8490734931403575,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_95",
+      "combined_score": -0.6044852879573795,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.37981657179833866,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_96",
+      "combined_score": 0.015316701445712656,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7813134472723114,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_97",
+      "combined_score": -0.425172053458749,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.495972545178912,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_98",
+      "combined_score": 0.6158314875086487,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5936868483016466,
+        "shuffle_sensitivity": 0.7653878034906113,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_99",
+      "combined_score": 0.4970211299012002,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6150929364096129,
+        "shuffle_sensitivity": 0.6738243499525366,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_100",
+      "combined_score": 0.02330592210665792,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7864887245184055,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_101",
+      "combined_score": -0.06702023530810147,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7279770214331633,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_102",
+      "combined_score": 0.5292607318889461,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6094563479493598,
+        "shuffle_sensitivity": 0.698553077382531,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_103",
+      "combined_score": 0.09677748031334976,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8340823133750658,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_104",
+      "combined_score": 0.12199275683878147,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.850416327967247,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_105",
+      "combined_score": 0.0361962952915993,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7948388825461842,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_106",
+      "combined_score": 0.07261083691701825,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8184275849614554,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_107",
+      "combined_score": -0.15456788735504193,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6712651854711961,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_108",
+      "combined_score": 0.05530880954901985,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.807219634605719,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_109",
+      "combined_score": 0.4671719539734674,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5208757370154224,
+        "shuffle_sensitivity": 0.7187501301570344,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_110",
+      "combined_score": -0.0852703789389633,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7161548979646682,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_111",
+      "combined_score": -0.010596781229193657,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7645271469626856,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_112",
+      "combined_score": -0.03768718993935554,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.27931200940052947,
+        "shuffle_sensitivity": 0.5564715853143515,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_113",
+      "combined_score": 0.681076758578739,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5704602803824872,
+        "shuffle_sensitivity": 0.8234944039689429,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_114",
+      "combined_score": 0.6877716708136299,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7330513753104819,
+        "shuffle_sensitivity": 0.716934764435334,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_115",
+      "combined_score": -0.3139010744517338,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5680519369299313,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_116",
+      "combined_score": -0.2683736878362064,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7942373358454101,
+        "shuffle_sensitivity": 0.055828196712007915,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_117",
+      "combined_score": -0.11027470310675538,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6999575346158103,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_118",
+      "combined_score": 0.10574518803654659,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8398914374059435,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_119",
+      "combined_score": 0.2529646754370903,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.1839503914074373,
+        "shuffle_sensitivity": 0.8097928871931187,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_120",
+      "combined_score": -0.3021707753273337,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5756506192951774,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_121",
+      "combined_score": -0.4821887438897209,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.45903813152859696,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_122",
+      "combined_score": -0.012108988256942337,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7635475657301446,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_123",
+      "combined_score": -0.5266125029790624,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3357749990162715,
+        "shuffle_sensitivity": 0.20124331976488088,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_124",
+      "combined_score": -0.21286325056358543,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6335024699862208,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_125",
+      "combined_score": 0.08846341607431024,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8286966081473703,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_126",
+      "combined_score": -0.6078395736164098,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.377643724284821,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_127",
+      "combined_score": -0.3101839871140334,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5704598010179247,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_128",
+      "combined_score": -0.1276117927730252,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6887268715172244,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_129",
+      "combined_score": -0.09186418334002734,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7118835469367967,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_130",
+      "combined_score": 2.921804360017532,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6528757201743501,
+        "shuffle_sensitivity": 0.5670461619364487,
+        "verbatim_completion": 0.375
+      }
+    },
+    {
+      "id": "sciq_131",
+      "combined_score": -0.13826526031373068,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6818257417956565,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_132",
+      "combined_score": 1.0228967402865705,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8679172778096698,
+        "shuffle_sensitivity": 0.8420366069308893,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_133",
+      "combined_score": -0.0608528661925754,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7319721351503089,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_134",
+      "combined_score": -0.02511436235019781,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.755122912127724,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_135",
+      "combined_score": 0.04969805343597076,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.1352310502856663,
+        "shuffle_sensitivity": 0.7113497240510834,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_136",
+      "combined_score": -0.0014917521061165659,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.770425225391791,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_137",
+      "combined_score": -0.5740984885846042,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3995006083332541,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_138",
+      "combined_score": -0.21304874309944374,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6333823111696243,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_139",
+      "combined_score": 0.03395938615453734,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7933898519773819,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_140",
+      "combined_score": 0.010584974410779442,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7782483173556569,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_141",
+      "combined_score": -0.6359572033685018,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.35942961609508917,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_142",
+      "combined_score": 0.35689934840436066,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.529666448076487,
+        "shuffle_sensitivity": 0.641321696247766,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_143",
+      "combined_score": 0.13093701557156973,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8562102621527499,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_144",
+      "combined_score": -0.4469273687837344,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4818798328655089,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_145",
+      "combined_score": -0.012919817531073095,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7630223247246747,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_146",
+      "combined_score": -0.39406748423961285,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5161215404515379,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_147",
+      "combined_score": 0.4001330294956156,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.30579908558732294,
+        "shuffle_sensitivity": 0.8220181461468249,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_148",
+      "combined_score": -0.1532466461550824,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6721210623844698,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_149",
+      "combined_score": -0.0379181265505328,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7468288578835761,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_150",
+      "combined_score": 0.029857839898726486,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.79073294213444,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_151",
+      "combined_score": -0.3820333821911593,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5239170210311376,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_152",
+      "combined_score": -0.6073020923605601,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.37799189523060533,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_153",
+      "combined_score": -0.0301943836274639,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7518321632998154,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_154",
+      "combined_score": 0.13243686724600492,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.09217328240711975,
+        "shuffle_sensitivity": 0.7943143551629377,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_155",
+      "combined_score": -0.2795091502864259,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.590330423172299,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_156",
+      "combined_score": 0.4729091719475905,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6460970356212788,
+        "shuffle_sensitivity": 0.6370584653694927,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_157",
+      "combined_score": 0.02862407603697515,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7899337315090548,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_158",
+      "combined_score": -0.046456352171069644,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7412979448382037,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_159",
+      "combined_score": -0.9305064832105154,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.007664650632440706,
+        "shuffle_sensitivity": 0.1633980174685525,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_160",
+      "combined_score": -0.28269966525987267,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.588263663441138,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_161",
+      "combined_score": -0.14378469029556037,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6782503517033527,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_162",
+      "combined_score": -0.11367616008785297,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6977541303458675,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_163",
+      "combined_score": 0.017761900627488843,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7828974044847433,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_164",
+      "combined_score": 0.047640268235099544,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8022520878252589,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_165",
+      "combined_score": -0.6309847250626636,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3626507004692759,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_166",
+      "combined_score": -0.6018382900987351,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.38153125065997884,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_167",
+      "combined_score": 0.4764992577647259,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5318422412434793,
+        "shuffle_sensitivity": 0.7173124070436034,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_168",
+      "combined_score": -0.3296231865672221,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5578674280091076,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_169",
+      "combined_score": -0.16228576669043498,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6662656783843768,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_170",
+      "combined_score": -0.4364593197207737,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.48866085174402946,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_171",
+      "combined_score": -0.09927042023333779,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7070859163668336,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_172",
+      "combined_score": 0.040291674611987384,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7974917975563475,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_173",
+      "combined_score": 0.05905459102833819,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8096460862561936,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_174",
+      "combined_score": 0.12022791352346335,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8492730933714953,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_175",
+      "combined_score": 0.08438736684984546,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7480671252803628,
+        "shuffle_sensitivity": 0.31583137222645513,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_176",
+      "combined_score": -0.12311132735497343,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6916421942080513,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_177",
+      "combined_score": 0.7800967189956449,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6813217306908662,
+        "shuffle_sensitivity": 0.8120239094521322,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_178",
+      "combined_score": 0.027195892583654326,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7890085792767036,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_179",
+      "combined_score": 0.2638341906348916,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.2742037441316877,
+        "shuffle_sensitivity": 0.7552759867291675,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_180",
+      "combined_score": 0.9899829081830414,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8172778845009709,
+        "shuffle_sensitivity": 0.8552545841829414,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_181",
+      "combined_score": 0.03136998228718297,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7917124814947795,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_182",
+      "combined_score": -0.03099338275839785,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7513145856539525,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_183",
+      "combined_score": 0.5516469020116206,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.48561066856436663,
+        "shuffle_sensitivity": 0.7975243290172659,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_184",
+      "combined_score": 0.04812004072108756,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8025628760404566,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_185",
+      "combined_score": 0.17005504125358364,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3568257784943575,
+        "shuffle_sensitivity": 0.6381745122646302,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_186",
+      "combined_score": -0.5875871611121175,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.39076288246808905,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_187",
+      "combined_score": -0.6152794092297693,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.37282432905235235,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_188",
+      "combined_score": -0.20839110499659014,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.636399447573438,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_189",
+      "combined_score": 0.077298321790822,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8214640555808482,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_190",
+      "combined_score": 0.2369490157143491,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.33131112889805114,
+        "shuffle_sensitivity": 0.6989097173485643,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_191",
+      "combined_score": 0.12487151568428478,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8522811375378418,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_192",
+      "combined_score": -0.6567599661582968,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3459539506339753,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_193",
+      "combined_score": -0.2211889834570178,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6281092060085378,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_194",
+      "combined_score": -0.21404666118027174,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6327358773112605,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_195",
+      "combined_score": 0.08565269291339997,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.826875870901892,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_196",
+      "combined_score": -0.2575599034690018,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6045487609105981,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_197",
+      "combined_score": 0.015478724350910973,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7814184028731397,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_198",
+      "combined_score": -0.08328429975728283,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7174414452806208,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_199",
+      "combined_score": 0.18960893831378303,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.11927867382294599,
+        "shuffle_sensitivity": 0.8128619843767255,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_200",
+      "combined_score": 0.09109450091768842,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.20208922707581622,
+        "shuffle_sensitivity": 0.6925644925197616,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_201",
+      "combined_score": -0.2549822009892013,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.11518286973698821,
+        "shuffle_sensitivity": 0.5276572036715377,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_202",
+      "combined_score": -0.8248547896665246,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2370650674490423,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_203",
+      "combined_score": 0.0688777392163957,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8160093496407161,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_204",
+      "combined_score": -0.4338485812181997,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.49035204242973945,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_205",
+      "combined_score": -0.2699674897768018,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5965113437678217,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_206",
+      "combined_score": -0.5175401672221563,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4361380985274126,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_207",
+      "combined_score": -0.5651803760026203,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4052776055001074,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_208",
+      "combined_score": 0.08713503281740556,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8278361047346711,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_209",
+      "combined_score": -0.03388365068274236,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.749442320703618,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_210",
+      "combined_score": 0.3542385702006304,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.26660341184587477,
+        "shuffle_sensitivity": 0.8190222248930705,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_211",
+      "combined_score": 0.08566667020468527,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8268849251464323,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_212",
+      "combined_score": 0.0323912210391664,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.792374022075553,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_213",
+      "combined_score": -0.30622589939054135,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5730237809357117,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_214",
+      "combined_score": -0.018751329391121944,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7592447734564803,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_215",
+      "combined_score": -0.6021292707589267,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.38134275848362625,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_216",
+      "combined_score": 0.11382842987421982,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8451276199239309,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_217",
+      "combined_score": 0.12293726302645364,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8510281625365123,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_218",
+      "combined_score": 0.5556044237652943,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5832579665389982,
+        "shuffle_sensitivity": 0.7334868639351376,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_219",
+      "combined_score": -0.005640085953814898,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7677380073661151,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_220",
+      "combined_score": -0.03617749563022606,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7479564081138191,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_221",
+      "combined_score": -0.3129281169159325,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5686822017843073,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_222",
+      "combined_score": 0.7281477769826246,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.687288587515865,
+        "shuffle_sensitivity": 0.7743025546441589,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_223",
+      "combined_score": 0.01373612582634507,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.780289578063312,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_224",
+      "combined_score": -0.005244505705307288,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7679942573241508,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_225",
+      "combined_score": 0.39131285805477906,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8672059405064511,
+        "shuffle_sensitivity": 0.43339280058305185,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_226",
+      "combined_score": 0.4111994855735841,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3097485673959487,
+        "shuffle_sensitivity": 0.8264930286620407,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_227",
+      "combined_score": -0.056195140876281725,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7349893280494619,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_228",
+      "combined_score": -0.08303778142675347,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.46011152070544403,
+        "shuffle_sensitivity": 0.40377859167741825,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_229",
+      "combined_score": 0.013591031468174926,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7801955884788153,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_230",
+      "combined_score": -0.008219119965711695,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7660673542942931,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_231",
+      "combined_score": 0.04647745477587809,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8014988376282305,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_232",
+      "combined_score": 0.44091119751953606,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6499372431704269,
+        "shuffle_sensitivity": 0.6137114952332431,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_233",
+      "combined_score": 0.9812993073795915,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8072940465247922,
+        "shuffle_sensitivity": 0.8564390518682256,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_234",
+      "combined_score": -0.06858235932379009,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7269651048499238,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_235",
+      "combined_score": -0.07168998049493175,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7249520422723549,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_236",
+      "combined_score": -0.05380703210169208,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7365363030958201,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_237",
+      "combined_score": -0.11562649111087747,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6964907400611116,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_238",
+      "combined_score": 0.7100685908906311,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7714820508569197,
+        "shuffle_sensitivity": 0.7051663858035289,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_239",
+      "combined_score": -0.39727363617782496,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5140446513684185,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_240",
+      "combined_score": 1.0557225049368362,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9375779317541352,
+        "shuffle_sensitivity": 0.8157879863949179,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_241",
+      "combined_score": -0.45747014194739366,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4750504090230385,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_242",
+      "combined_score": -0.22895557904091166,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6230781413890027,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_243",
+      "combined_score": -0.09262381375727471,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7113914716542802,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_244",
+      "combined_score": -0.08174331370387258,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7184396690620402,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_245",
+      "combined_score": 1.2865250716040877,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7238518250194665,
+        "verbatim_completion": 0.2
+      }
+    },
+    {
+      "id": "sciq_246",
+      "combined_score": 0.8972128679641317,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7574852299707121,
+        "shuffle_sensitivity": 0.8359418090200395,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_247",
+      "combined_score": 0.10159896006802932,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8372055835319253,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_248",
+      "combined_score": -0.5304628742757894,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.427766995185689,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_249",
+      "combined_score": 2.659765347827898,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4548737565740386,
+        "shuffle_sensitivity": 0.7158773124764176,
+        "verbatim_completion": 0.3333333333333333
+      }
+    },
+    {
+      "id": "sciq_250",
+      "combined_score": -0.07014598214806986,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7259522173647244,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_251",
+      "combined_score": 0.07291765965685704,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8186263393595952,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_252",
+      "combined_score": 0.021205293029668455,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7851279737861381,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_253",
+      "combined_score": -0.050489336477901846,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.738685448225232,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_254",
+      "combined_score": 0.10272296982023138,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8379336973670326,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_255",
+      "combined_score": 0.021547683897659327,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7853497685948665,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_256",
+      "combined_score": 0.02701415672170191,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7888908539676808,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_257",
+      "combined_score": -0.36595264388429083,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5343338417188869,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_258",
+      "combined_score": 0.5393825399485315,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7694813129888685,
+        "shuffle_sensitivity": 0.595963569261849,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_259",
+      "combined_score": -0.42632859793032163,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4952233559223071,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_260",
+      "combined_score": -0.24988271185631578,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6095219112031245,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_261",
+      "combined_score": 0.3987807470863228,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4989433767449708,
+        "shuffle_sensitivity": 0.6894066361846886,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_262",
+      "combined_score": 0.5501027782864552,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5406400829319433,
+        "shuffle_sensitivity": 0.758990844289849,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_263",
+      "combined_score": -0.7872196954926347,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2614444224322971,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_264",
+      "combined_score": -0.3233719782469435,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5619168512949959,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_265",
+      "combined_score": 0.12453901997637312,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8520657526405401,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_266",
+      "combined_score": -0.24559235722114614,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6123011278080193,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_267",
+      "combined_score": 0.061726885092266794,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8113771515566588,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_268",
+      "combined_score": -0.2981983984488678,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5782238554773411,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_269",
+      "combined_score": -0.06781074292634995,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7274649444405245,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_270",
+      "combined_score": 0.025941356300519615,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.788195912640489,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_271",
+      "combined_score": 0.8538230466369127,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7739041115049912,
+        "shuffle_sensitivity": 0.7966360201827503,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_272",
+      "combined_score": 0.2555679698884533,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5160269256680592,
+        "shuffle_sensitivity": 0.5849839430981169,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_273",
+      "combined_score": -0.20078949453469605,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6413236377199718,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_274",
+      "combined_score": 0.04409217002458788,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7999536919347147,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_275",
+      "combined_score": -0.028086153262523776,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7531978380133122,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_276",
+      "combined_score": 0.2312256665715712,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.10517407987956673,
+        "shuffle_sensitivity": 0.8494407172109368,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_277",
+      "combined_score": 0.06435903579094968,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8130822126880624,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_278",
+      "combined_score": -0.8665021280717964,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.21008665091051612,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_279",
+      "combined_score": 0.10153968904448307,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8371671888007582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_280",
+      "combined_score": 0.09668669143668873,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8340235019305554,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_281",
+      "combined_score": -0.3518429371467944,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5434738626704405,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_282",
+      "combined_score": -0.04993049706924744,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7390474546084037,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_283",
+      "combined_score": -0.03810294209739228,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7467091376085984,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_284",
+      "combined_score": -0.3158090085746096,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5668160106146858,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_285",
+      "combined_score": -0.17990896111373525,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6548496816341248,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_286",
+      "combined_score": -0.8772734653015407,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.20310916726838754,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_287",
+      "combined_score": 0.01157398081365233,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7788889783850925,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_288",
+      "combined_score": 0.4875885620833387,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5064798832778068,
+        "shuffle_sensitivity": 0.7417944523379119,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_289",
+      "combined_score": 0.0644948706582823,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8131702041365361,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_290",
+      "combined_score": 0.07144459265472933,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8176721123502761,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_291",
+      "combined_score": -0.1857669139933652,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6510550023364506,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_292",
+      "combined_score": 0.09375560812110298,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8321247974844872,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_293",
+      "combined_score": 0.82057327452097,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6136707419211376,
+        "shuffle_sensitivity": 0.8843857820743374,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_294",
+      "combined_score": -0.017904799373537506,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.06337638446983251,
+        "shuffle_sensitivity": 0.7165667982505364,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_295",
+      "combined_score": 0.11154974985306426,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8436515309078566,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_296",
+      "combined_score": -0.4220708324276563,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4979814618578291,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_297",
+      "combined_score": 0.07981790374893499,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8230961966532853,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_298",
+      "combined_score": -0.2021527367505744,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6404405532840595,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "sciq_299",
+      "combined_score": 0.0020583371281035004,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7727249110326291,
+        "verbatim_completion": 0.0
+      }
+    }
+  ]
+}

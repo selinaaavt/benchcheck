@@ -1,9 +1,31 @@
-# Findings: contamination in ARC-Easy as seen by gpt2
+# Findings: memorization fingerprints across four benchmarks (gpt2)
 
-This is a real run of benchcheck against a real model and a real public
-benchmark. It is not a synthetic demo.
+These are real runs of benchcheck against a real model (gpt2) and four real
+public benchmarks. Not a synthetic demo.
 
-## Setup
+## Cross-benchmark ranking
+
+How much of each benchmark gpt2 shows memorization fingerprints on, ranked:
+
+| Benchmark | Questions | Flagged | Rate | 95% CI |
+|---|---|---|---|---|
+| ARC-Challenge | 300 | 56 | 18.7% | 14.3%–23.3% |
+| ARC-Easy | 500 | 86 | 17.2% | 14.0%–20.6% |
+| SciQ | 300 | 45 | 15.0% | 11.0%–19.0% |
+| OpenBookQA | 300 | 40 | 13.3% | 9.7%–17.3% |
+
+The spread is small but consistent and directionally sensible: the ARC sets
+(standard textbook-style science Q&A, widely scraped and reposted) show more
+memorization signal than OpenBookQA (which pairs questions with a required
+"open book" fact and leans more on reasoning than on recall of the exact
+question). Every flagged question was independently picked out by at least two
+checks. Reproduce the table with `python -m examples.build_ranking`.
+
+This is a *lower bound* per benchmark (recall < 1) and measures memorization
+fingerprints, which correlate with contamination but are not identical to it
+(see caveats below).
+
+## Deep dive: ARC-Easy
 
 - **Model:** gpt2 (124M parameters), run on CPU.
 - **Benchmark:** ARC-Easy test split (AI2 Reasoning Challenge), a multiple-choice

@@ -1,0 +1,3336 @@
+{
+  "dataset": "examples/openbookqa.jsonl",
+  "model": "hf:gpt2",
+  "n_items": 300,
+  "n_flagged": 40,
+  "contamination_rate": 0.13333333333333333,
+  "ci_low": 0.09666666666666666,
+  "ci_high": 0.17333333333333334,
+  "per_signal_mean": {
+    "ngram_overlap": 0.0,
+    "perturbation_gap": 0.11331193579133204,
+    "shuffle_sensitivity": 0.6091644255805934,
+    "verbatim_completion": 0.014257797270955165
+  },
+  "signals_run": [
+    "ngram_overlap",
+    "perturbation_gap",
+    "shuffle_sensitivity",
+    "verbatim_completion"
+  ],
+  "signals_skipped": {},
+  "timing": {
+    "n_items": 300,
+    "wall_seconds": 1013.9684673109987,
+    "items_per_second": 0.29586718884423224,
+    "ms_per_item": 3379.8948910366626,
+    "per_signal_seconds": {
+      "ngram_overlap": 0.006156726030894788,
+      "perturbation_gap": 25.95710932599468,
+      "shuffle_sensitivity": 737.7049069680106,
+      "verbatim_completion": 250.29844649903316
+    }
+  },
+  "items": [
+    {
+      "id": "8-343",
+      "combined_score": 0.3138527393075329,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6915095340621793,
+        "shuffle_sensitivity": 0.40559581516960136,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1129",
+      "combined_score": 0.07386773594741994,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8126449829026752,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "880",
+      "combined_score": -0.32234103492570243,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4575513689658595,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-999",
+      "combined_score": 0.1485001124247216,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.488225418594857,
+        "verbatim_completion": 0.15789473684210525
+      }
+    },
+    {
+      "id": "8-464",
+      "combined_score": -0.06772958171151897,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6857414235986508,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-794",
+      "combined_score": -0.09247367670019091,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6635650591184786,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1163",
+      "combined_score": 0.0699246838367652,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8091111070098521,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-322",
+      "combined_score": -0.25654441429847746,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.516520179151116,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1140",
+      "combined_score": -0.0017781704420898117,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7448489615773954,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-903",
+      "combined_score": 0.10336328254866439,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.839079733992604,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-511",
+      "combined_score": -0.013619301159105764,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7342366021131222,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-937",
+      "combined_score": -0.11444400537074939,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6438746232156689,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-201",
+      "combined_score": -0.3079797654525754,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4704223487442607,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1618",
+      "combined_score": 0.10822987263698097,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8434413109920259,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "758",
+      "combined_score": -0.7839009809256611,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.04388816582063825,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-414",
+      "combined_score": -0.04191025193942439,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7088814441943468,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-675",
+      "combined_score": -0.35181175921625263,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.40899062121413865,
+        "shuffle_sensitivity": 0.06318215513523445,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-163",
+      "combined_score": -0.39194022457570743,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.39517458784253523,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1032",
+      "combined_score": -0.6075741573672157,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.20191729998995234,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "889",
+      "combined_score": -0.006508221328727838,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7406097549093048,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1160",
+      "combined_score": 0.397021729042674,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6791017818665444,
+        "shuffle_sensitivity": 0.49129712457376035,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-298",
+      "combined_score": 0.07964899158733296,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8178263092871098,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1189",
+      "combined_score": -0.39772681510250907,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3899884801801369,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-395",
+      "combined_score": -0.49763776892242884,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.30044543047528666,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-238",
+      "combined_score": -0.659281323826292,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.15557586094526843,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-372",
+      "combined_score": 0.5643135397776478,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5165878416803154,
+        "shuffle_sensitivity": 0.7874377853261676,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-35",
+      "combined_score": -0.14779890991165415,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6139810053387941,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-271",
+      "combined_score": 0.09227549532832274,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8291425424812774,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-409",
+      "combined_score": 0.11980468559863461,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8538149888794154,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "530",
+      "combined_score": 0.9437860935308333,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8818991800002349,
+        "shuffle_sensitivity": 0.7988721673226744,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1426",
+      "combined_score": -0.47946678173449214,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3167307880536787,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-466",
+      "combined_score": -0.14117664464427546,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.619916068565839,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1577",
+      "combined_score": 0.006567191603477483,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7523283133389459,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-257",
+      "combined_score": -0.10802303703549518,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6496292783842427,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "378",
+      "combined_score": -0.4268591755797228,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3638792268651047,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-41",
+      "combined_score": -0.3359468015952958,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.44535749237286987,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-540",
+      "combined_score": 0.27147814949956733,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.218893340073547,
+        "shuffle_sensitivity": 0.7928172442715307,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "266",
+      "combined_score": 0.06458349542056735,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8043241814371406,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1309",
+      "combined_score": -0.570896086841807,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.23478923411295397,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1197",
+      "combined_score": 0.4376902916515931,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7727287463950177,
+        "shuffle_sensitivity": 0.44351205368286584,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-891",
+      "combined_score": 0.050679477410504596,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7918630034764518,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1180",
+      "combined_score": -0.6351674039129874,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.17718744452866236,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1204",
+      "combined_score": 0.018473285079617062,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7629988942829145,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-52",
+      "combined_score": -0.20671111662359176,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5611822034843201,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1759",
+      "combined_score": -0.11447991258277454,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6438424421469452,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-655",
+      "combined_score": -0.2586784764725967,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5579968734894718,
+        "shuffle_sensitivity": 0.01259436487277133,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "132",
+      "combined_score": 0.12921457444052242,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6207712270797254,
+        "shuffle_sensitivity": 0.30375897247657024,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-79",
+      "combined_score": -0.34984103024971164,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.43290508791224036,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1835",
+      "combined_score": -0.2615306397855645,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5120513814912061,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-149",
+      "combined_score": 0.6649281614589408,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9527937876461521,
+        "shuffle_sensitivity": 0.48516995405087116,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "695",
+      "combined_score": -0.5801378627041378,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.22650649069231432,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-179",
+      "combined_score": -0.08485861510287046,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6703898947650623,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-50",
+      "combined_score": 0.06077939426320849,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8009148373563142,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "508",
+      "combined_score": 0.23472388527833987,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5547722757477399,
+        "shuffle_sensitivity": 0.4576967250261102,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1674",
+      "combined_score": -0.04326368628444068,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7076684576879175,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "163",
+      "combined_score": 0.03793848977121921,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7804441665436194,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-49",
+      "combined_score": -0.09653593807093609,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6599243444828207,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-393",
+      "combined_score": -0.06679645652203015,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.08336382182118018,
+        "shuffle_sensitivity": 0.6115777636091012,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "788",
+      "combined_score": 0.04438015654409929,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7862173722430237,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-29",
+      "combined_score": -0.8156599945529583,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.015424830950151744,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-368",
+      "combined_score": 0.04726155850889512,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7887997669604078,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-671",
+      "combined_score": 0.5486914559181741,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.573014097975002,
+        "shuffle_sensitivity": 0.7226718015482012,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1272",
+      "combined_score": 0.6093793048294958,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5316679510171267,
+        "shuffle_sensitivity": 0.8142598845072233,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "648",
+      "combined_score": -0.003898235817558611,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7429488984508308,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1180",
+      "combined_score": -0.29977411777508955,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.47777648449968485,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-227",
+      "combined_score": -0.011771463775121456,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7358926867404276,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1582",
+      "combined_score": -0.007304748623037101,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7398958844038329,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-125",
+      "combined_score": -0.20811051280185686,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5599280246705234,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1923",
+      "combined_score": 1.9965616925790257,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.816114816196092,
+        "shuffle_sensitivity": 0.7001265664243479,
+        "verbatim_completion": 0.4444444444444444
+      }
+    },
+    {
+      "id": "9-229",
+      "combined_score": -0.5773668432871378,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2289899574184629,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1702",
+      "combined_score": -0.10921072280587632,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6485648404832427,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-260",
+      "combined_score": 0.05157291701665919,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7926637295630666,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-491",
+      "combined_score": 0.39386653106407005,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8002785292592334,
+        "shuffle_sensitivity": 0.37945022705398984,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "75",
+      "combined_score": 0.06260879174411255,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8025543956159398,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1215",
+      "combined_score": -0.8170011838460531,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.014222818808903854,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-93",
+      "combined_score": 1.3932788313148863,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7559993160657658,
+        "verbatim_completion": 0.5
+      }
+    },
+    {
+      "id": "7-988",
+      "combined_score": -0.31589502944373166,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4633284631402399,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1139",
+      "combined_score": -0.006823553918903609,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.740327144837875,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1545",
+      "combined_score": -0.1583581771092714,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.604517488563374,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-664",
+      "combined_score": -0.36791549340011676,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.41670623793246436,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-53",
+      "combined_score": 0.11270074584727136,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.847448235225926,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1044",
+      "combined_score": -0.4805747163411522,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3157378254228475,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1122",
+      "combined_score": 0.014280184040307224,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7592409174002483,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-79",
+      "combined_score": -0.7163339727688698,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.10444364786214116,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-157",
+      "combined_score": -0.22733242954463642,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5427007940164803,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1164",
+      "combined_score": 0.7006858999107735,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6709598619037077,
+        "shuffle_sensitivity": 0.7707746688984705,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-63",
+      "combined_score": 0.08152987937066872,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8195120146260463,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-308",
+      "combined_score": -0.21351776383395057,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5550818918950715,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "326",
+      "combined_score": -0.3815145621158054,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.40451836423701976,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1184",
+      "combined_score": 0.0617557023094111,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8017898325051538,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "359",
+      "combined_score": -0.4103617509438657,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.37866468989684743,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-350",
+      "combined_score": -0.0845247203695344,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5206943746108783,
+        "shuffle_sensitivity": 0.20223588377681095,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-140",
+      "combined_score": -0.06777323530988441,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6857022999972959,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "591",
+      "combined_score": 0.22569833281928325,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4390559122892964,
+        "shuffle_sensitivity": 0.5537143410139516,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-391",
+      "combined_score": 0.01683218586725215,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7615280943082866,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1672",
+      "combined_score": 0.050090909852928266,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7913355124251932,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-464",
+      "combined_score": -0.1896833400160434,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5764429830969435,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-983",
+      "combined_score": -0.1399252653936719,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6210375903825397,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-179",
+      "combined_score": 0.1252663517775029,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8587098900631953,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-942",
+      "combined_score": 0.10716591466467673,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8424877614766282,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-100",
+      "combined_score": -0.0904063188997121,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6654178842113072,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-30",
+      "combined_score": 0.011495049741183809,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7567448005136996,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1709",
+      "combined_score": -0.012109582856034702,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7355896547653457,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-491",
+      "combined_score": -0.8096923816983709,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.02077317599168508,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "44",
+      "combined_score": -0.09760360572751436,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.658967470242449,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1023",
+      "combined_score": 0.043670798817257654,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7855816255929858,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1911",
+      "combined_score": 0.106914819089245,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8422627224520576,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "429",
+      "combined_score": 0.11975278903979686,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.853768477701513,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-49",
+      "combined_score": -0.1268382513198336,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6327665460865752,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "520",
+      "combined_score": 0.1068788373307702,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8422304745726771,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1128",
+      "combined_score": 0.10650165510069198,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.841892433087891,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-394",
+      "combined_score": 0.032432147604218135,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7755092254635815,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1166",
+      "combined_score": -0.6334394872603798,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.17873605277225052,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-884",
+      "combined_score": -0.38165634357538153,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4043912956444715,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-501",
+      "combined_score": -0.05211064622310887,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6997395595717728,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-757",
+      "combined_score": -0.07153082175570075,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6823346437291509,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-725",
+      "combined_score": -0.09578116555058952,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6606007931675871,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1300",
+      "combined_score": -0.09736971427953436,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6591770904367448,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-230",
+      "combined_score": -0.8265762456323639,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.005641375026433524,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-988",
+      "combined_score": 0.09452649746874969,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8311599548754106,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-393",
+      "combined_score": 2.4333982111567978,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4490444387839899,
+        "verbatim_completion": 1.0
+      }
+    },
+    {
+      "id": "7-823",
+      "combined_score": -0.00831517768901447,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.738990309022768,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-24",
+      "combined_score": 1.040365800112878,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9579313183076645,
+        "shuffle_sensitivity": 0.8170258025067165,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "570",
+      "combined_score": 0.6532061548866089,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5896283597554649,
+        "shuffle_sensitivity": 0.8013935014625116,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-124",
+      "combined_score": -0.0375895204600464,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7127538071218051,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-199",
+      "combined_score": 0.9856098097263895,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9318749236212425,
+        "shuffle_sensitivity": 0.7913940844636752,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "767",
+      "combined_score": -0.11406275976248048,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6442163064160166,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "28",
+      "combined_score": 0.09476405426887918,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8313728600629645,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1134",
+      "combined_score": 0.036213439501880405,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7788981272345644,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1030",
+      "combined_score": -0.4035275780859154,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.38478967075744425,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-18",
+      "combined_score": 0.699877814360325,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6388726862157248,
+        "shuffle_sensitivity": 0.7989183180855007,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-378",
+      "combined_score": -0.03458253749250614,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.1901491941263963,
+        "shuffle_sensitivity": 0.5443771712363138,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-677",
+      "combined_score": -0.20218564034889408,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5652380645436966,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-786",
+      "combined_score": -0.1943276934499955,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5722805809329843,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-463",
+      "combined_score": -0.6138735584367253,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.19627159687621198,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-71",
+      "combined_score": -0.034881438669650384,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7151808673498488,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1053",
+      "combined_score": 0.10840759169801434,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8436005878891747,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-437",
+      "combined_score": 0.561619604285459,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6376254808703912,
+        "shuffle_sensitivity": 0.6761294359342139,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1787",
+      "combined_score": 0.3722369189393503,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4024336976122742,
+        "shuffle_sensitivity": 0.717994324563988,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-107",
+      "combined_score": 0.0017258146222132661,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.747989333046008,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "769",
+      "combined_score": 0.1252099408209119,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8586593329531208,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-73",
+      "combined_score": 1.2349971188805888,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6141427257521683,
+        "verbatim_completion": 0.5
+      }
+    },
+    {
+      "id": "9-1194",
+      "combined_score": -0.03613530078339885,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7140571203203011,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-416",
+      "combined_score": -0.05708305986616712,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6952831404808696,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "470",
+      "combined_score": 0.014643656307763923,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7595666716250541,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1297",
+      "combined_score": 0.05101323306295732,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7921621248223526,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-346",
+      "combined_score": 0.004963273359384089,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.750890836009761,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-807",
+      "combined_score": 0.02910850209987622,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7725304794580834,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-463",
+      "combined_score": 0.35090561859054975,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.3427738483261298,
+        "shuffle_sensitivity": 0.7525507977667583,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-110",
+      "combined_score": -0.337340478971783,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.44410843891252305,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1611",
+      "combined_score": 0.5301994550064033,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.701574727586567,
+        "shuffle_sensitivity": 0.5904365638789626,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-942",
+      "combined_score": -0.1028167009477812,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6542953454495476,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1102",
+      "combined_score": -0.29263618728291363,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.48417370162567375,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-774",
+      "combined_score": 0.20585769881161864,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.38719004975746374,
+        "shuffle_sensitivity": 0.5825947736634479,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-333",
+      "combined_score": -0.38295507957583685,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4032273313563129,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-573",
+      "combined_score": 0.10552041515326682,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8410130178283486,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1955",
+      "combined_score": -0.15321895814604772,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6091234033452254,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-45",
+      "combined_score": -0.05439594072288562,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6976914133859946,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-674",
+      "combined_score": 0.044576915036217156,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7863937128219688,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "898",
+      "combined_score": 0.06959874360309626,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8088189900654295,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1159",
+      "combined_score": -0.5452930056793156,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.25773544652988717,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "568",
+      "combined_score": -0.3930848035080671,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3941487835206574,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-877",
+      "combined_score": 0.032953886658895655,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.03627171677227192,
+        "shuffle_sensitivity": 0.7433442370960615,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "406",
+      "combined_score": -0.34808898612806993,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.43447531988252086,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1132",
+      "combined_score": 0.037778477496121086,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7803007589736314,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-479",
+      "combined_score": -0.7413651686160998,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.08200997539455357,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "609",
+      "combined_score": -0.04231458751897967,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7085190671024134,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1568",
+      "combined_score": 0.033947666049752794,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7768674763691,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-418",
+      "combined_score": -0.15748338250030408,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.605301504471114,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1050",
+      "combined_score": -0.07285375032402944,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6811489973708613,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-510",
+      "combined_score": 0.13603437430878867,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.2613814228122012,
+        "shuffle_sensitivity": 0.6332033998840401,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-519",
+      "combined_score": -0.02231298939166996,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7264450704765605,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-637",
+      "combined_score": -0.7781726923604959,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.04902202160024394,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "473",
+      "combined_score": -0.42573733274893366,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3648846544435406,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-445",
+      "combined_score": 0.4428060119843078,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5937068371066103,
+        "shuffle_sensitivity": 0.6091576006706559,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-575",
+      "combined_score": -0.7983387725665915,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.030948604690411694,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-284",
+      "combined_score": -0.07929230946684968,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.675378576818253,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-135",
+      "combined_score": -0.31705824015623285,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.46228596048498105,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "397",
+      "combined_score": -0.26418476342190605,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5096726801015656,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-32",
+      "combined_score": -0.3327749253850696,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.44820021840330926,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "48",
+      "combined_score": -0.7103765425075722,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.10978286697281094,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-69",
+      "combined_score": -0.5640605527642355,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.119155601584093,
+        "shuffle_sensitivity": 0.13371468076858822,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-159",
+      "combined_score": 0.4598373435709532,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5493455079986325,
+        "shuffle_sensitivity": 0.6643321360078824,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-317",
+      "combined_score": -0.36654392678766073,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4179354750947281,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "423",
+      "combined_score": 0.024375393355781837,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7682885322508253,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-304",
+      "combined_score": -0.13251537632267307,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6276785445524676,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "785",
+      "combined_score": 0.08375294281757395,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8215043875652743,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1087",
+      "combined_score": 0.001562941381142012,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7478433613966219,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "485",
+      "combined_score": 0.7475999753159067,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6522101120624068,
+        "shuffle_sensitivity": 0.8296889956812821,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-908",
+      "combined_score": 0.7397613275314112,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7343765599914174,
+        "shuffle_sensitivity": 0.7487410639924014,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1231",
+      "combined_score": 0.10050573048030959,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8365187142334285,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "810",
+      "combined_score": -0.08678998701624219,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6686589441072465,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "158",
+      "combined_score": -0.21873969549591313,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5504018476308037,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-445",
+      "combined_score": -0.008689873469141109,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7386544959654274,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1502",
+      "combined_score": -0.42890473724182127,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.362045936093867,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1200",
+      "combined_score": -0.05680882379829793,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6955289186755241,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "437",
+      "combined_score": -0.34037402050405274,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4413896923705238,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-205",
+      "combined_score": 0.08749302604604414,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.824856356950241,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-270",
+      "combined_score": -0.11324077909144781,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6449529889645124,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-130",
+      "combined_score": 0.47762703802778866,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5082856974798856,
+        "shuffle_sensitivity": 0.7172160596301519,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "229",
+      "combined_score": 0.03565137513482402,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7783943890994309,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-390",
+      "combined_score": -0.06303435013786002,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.689949424204207,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-107",
+      "combined_score": -0.7153890333842193,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.10529052952078627,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-527",
+      "combined_score": -0.07860634447344625,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6759933582326194,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-333",
+      "combined_score": 0.729247465556845,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7911088576908707,
+        "shuffle_sensitivity": 0.6882778781714102,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-44",
+      "combined_score": 0.8757101415585754,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7971849172326372,
+        "shuffle_sensitivity": 0.8140754603229784,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-160",
+      "combined_score": 0.020112429153016746,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.764467942006174,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1942",
+      "combined_score": -0.6600524186056457,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.15488478378590845,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-597",
+      "combined_score": -0.4376078638839207,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3542459454851722,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-35",
+      "combined_score": -0.014945081432751493,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.35878565206446855,
+        "shuffle_sensitivity": 0.41025960972983744,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1161",
+      "combined_score": 0.087277300146899,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8246630172395162,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-171",
+      "combined_score": 0.7185628085116031,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7453430429261141,
+        "shuffle_sensitivity": 0.7198761270976232,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1139",
+      "combined_score": -0.18378464581823883,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5817295612703411,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1924",
+      "combined_score": -0.3390265725292776,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.4425973137210061,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-440",
+      "combined_score": 0.16965205400840624,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.10270944370823387,
+        "shuffle_sensitivity": 0.8060849891997452,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-528",
+      "combined_score": 0.6406275585782657,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5454851992920604,
+        "shuffle_sensitivity": 0.8298344940813895,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "170",
+      "combined_score": -0.5417306215759861,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.26092815688482135,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "395",
+      "combined_score": 1.5716507407168199,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6680334014801967,
+        "verbatim_completion": 0.6
+      }
+    },
+    {
+      "id": "9-633",
+      "combined_score": -0.6578149944548988,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.11626786561919866,
+        "shuffle_sensitivity": 0.0522872832708726,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-504",
+      "combined_score": -0.07727929924301985,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6771826940610295,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-192",
+      "combined_score": 0.019960128692168337,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7643314459843223,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1108",
+      "combined_score": 0.048998699738527655,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7903566425333274,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-852",
+      "combined_score": -0.029454119550200296,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7200449857182204,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "761",
+      "combined_score": -0.6196236437762738,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.19111820620501146,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-318",
+      "combined_score": 0.22792859545584848,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.5988814979249543,
+        "shuffle_sensitivity": 0.41192283571587535,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "636",
+      "combined_score": 0.11795139257681003,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8521540147536955,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-444",
+      "combined_score": 0.34863858455001767,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.24510539785213648,
+        "shuffle_sensitivity": 0.8383884199078988,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-57",
+      "combined_score": 0.09741379822380314,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8337476362570596,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-187",
+      "combined_score": 0.3154816582416455,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.23778603712863122,
+        "shuffle_sensitivity": 0.8152572471324211,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1345",
+      "combined_score": -0.7693394899217673,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.056938589852106584,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-59",
+      "combined_score": -0.1998088849534659,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5673681805957632,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "178",
+      "combined_score": -0.028755768819870624,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7206708675836867,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1186",
+      "combined_score": -0.4166101393483738,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.37306470579011447,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "82",
+      "combined_score": 0.06453462252214517,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8042803801500412,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-165",
+      "combined_score": -0.03736372116525479,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7129561748973474,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "404",
+      "combined_score": 0.1080128979688178,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8432468520988494,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "279",
+      "combined_score": 0.0042494105454083594,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7502510517719938,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-532",
+      "combined_score": 0.3223681035375415,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.44721395209804715,
+        "shuffle_sensitivity": 0.633013003864404,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "268",
+      "combined_score": 0.0021819283645901286,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7483981152059535,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-1018",
+      "combined_score": 0.052467008043616696,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.793465039471606,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1756",
+      "combined_score": 0.06340392167389489,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8032670137634218,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1137",
+      "combined_score": 0.1102757065191397,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8452748457346547,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-203",
+      "combined_score": 0.7232722494604285,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7112960294867378,
+        "shuffle_sensitivity": 0.7547279488731621,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "745",
+      "combined_score": 0.06622628228325506,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8057964939321774,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-902",
+      "combined_score": -0.07138310397403139,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6824670326230668,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1095",
+      "combined_score": -0.0828783935163602,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6721646258948151,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-163",
+      "combined_score": -0.1292227822688815,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6306294613613288,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-858",
+      "combined_score": 0.10851692908708904,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.09448686024764053,
+        "shuffle_sensitivity": 0.7586915585866222,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1530",
+      "combined_score": 0.011045668868026486,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7563420525434014,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-993",
+      "combined_score": 0.5601224037484422,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6246809571846772,
+        "shuffle_sensitivity": 0.6864334053892582,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-340",
+      "combined_score": 0.6689254467315224,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6296153255142782,
+        "shuffle_sensitivity": 0.7795064947430105,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "3",
+      "combined_score": -0.10349281748632072,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6536893905016463,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1074",
+      "combined_score": 0.011975720386100085,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7571755912709071,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-431",
+      "combined_score": -0.24697124044735744,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.016138690787543042,
+        "shuffle_sensitivity": 0.5105804303538785,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-638",
+      "combined_score": 0.10521966411875083,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8407434761634678,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-352",
+      "combined_score": 0.09237883645197958,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8292351597471364,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "226",
+      "combined_score": 0.06390103264297092,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8037125388085838,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-132",
+      "combined_score": -0.11915532116115038,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6396522074757942,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-222",
+      "combined_score": -0.11852312723631886,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6402187977231091,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-105",
+      "combined_score": 0.45570878723111224,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.42956480558509225,
+        "shuffle_sensitivity": 0.7683951447388444,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-459",
+      "combined_score": -0.04915287494180285,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7023903986512888,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-881",
+      "combined_score": 0.7887816456273156,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6710715241974212,
+        "shuffle_sensitivity": 0.8496281324778603,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "280",
+      "combined_score": -0.24168385732096515,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.5298386346477729,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "187",
+      "combined_score": 0.03669390271008965,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7793287320810718,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-253",
+      "combined_score": 0.4758692072466873,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8483045144879297,
+        "shuffle_sensitivity": 0.40973581510977397,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-482",
+      "combined_score": 0.578981747086511,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.8337136207865231,
+        "shuffle_sensitivity": 0.5152752111357962,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "496",
+      "combined_score": 0.46256312151930823,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.2316502123281508,
+        "verbatim_completion": 0.375
+      }
+    },
+    {
+      "id": "630",
+      "combined_score": 0.7885465805603173,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7679792205487739,
+        "shuffle_sensitivity": 0.7622324855499361,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-16",
+      "combined_score": -0.11968415497690812,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.639178251509611,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-986",
+      "combined_score": 0.0025900706671131077,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.748763903991709,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-787",
+      "combined_score": -0.15017424697824333,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6118521604335324,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-181",
+      "combined_score": -0.3717116135635791,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.41330404664626,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1240",
+      "combined_score": -0.41798877292262304,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3718291350148992,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "474",
+      "combined_score": -0.5746951694687331,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.23138438778240222,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1274",
+      "combined_score": 0.08430105780006461,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8219956238636446,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1531",
+      "combined_score": -0.3282208936534983,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.45228167167851807,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-321",
+      "combined_score": 0.5893443978224318,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.6841317568662987,
+        "shuffle_sensitivity": 0.6591368729340736,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1321",
+      "combined_score": -0.20322719625688684,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.564304592398011,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-51",
+      "combined_score": -0.5902880825018462,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.21740957387677148,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-685",
+      "combined_score": 0.06289690965110478,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8028126151112032,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-59",
+      "combined_score": -0.007772338247321493,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7394768172308357,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-270",
+      "combined_score": -0.8117124801176041,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.018962706105789203,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-736",
+      "combined_score": 0.09824171435117923,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8344896383310134,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-186",
+      "combined_score": -0.729172394989005,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.09293748727577106,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "224",
+      "combined_score": 0.8543237458528145,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.7612604207836636,
+        "shuffle_sensitivity": 0.8272285638156727,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-206",
+      "combined_score": -0.5496135166844397,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.25386328119775076,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-190",
+      "combined_score": 0.10009045489769608,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8361465323983697,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-334",
+      "combined_score": -0.09840912548658554,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.6582455404332835,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-853",
+      "combined_score": 0.14211628200296583,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.3781554525021162,
+        "verbatim_completion": 0.2
+      }
+    },
+    {
+      "id": "8-367",
+      "combined_score": 0.05516539959602062,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7958834150316627,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1047",
+      "combined_score": 0.11518691117693025,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8496764075851788,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-454",
+      "combined_score": 0.38825518398802916,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.4600140786172844,
+        "shuffle_sensitivity": 0.6805469932384736,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1572",
+      "combined_score": 0.11141239789518265,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8462935810033375,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "8-373",
+      "combined_score": 1.499496507500356,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8511946304389223,
+        "verbatim_completion": 0.5
+      }
+    },
+    {
+      "id": "9-772",
+      "combined_score": 0.05367653651004289,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7945490534205053,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "1852",
+      "combined_score": -0.29953322378246,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.47799238057444865,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-1090",
+      "combined_score": -0.04301325721069086,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7078928993746493,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "7-769",
+      "combined_score": 1.0753767011711632,
+      "flagged": true,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.9494687524539729,
+        "shuffle_sensitivity": 0.8560170907911785,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "9-478",
+      "combined_score": 0.06569490804191186,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.8053202611640444,
+        "verbatim_completion": 0.0
+      }
+    },
+    {
+      "id": "448",
+      "combined_score": -0.004386910413384466,
+      "flagged": false,
+      "signal_scores": {
+        "ngram_overlap": 0.0,
+        "perturbation_gap": 0.0,
+        "shuffle_sensitivity": 0.7425109343242706,
+        "verbatim_completion": 0.0
+      }
+    }
+  ]
+}

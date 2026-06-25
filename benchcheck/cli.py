@@ -41,6 +41,9 @@ def cmd_detect(args: argparse.Namespace) -> int:
 
     print(f"\n=== benchcheck report: {args.dataset} (model={args.model}) ===")
     print(out.report.summary())
+    if args.timing:
+        print("\n--- timing ---")
+        print(out.timing.summary())
     if out.signals_skipped:
         print("\nskipped signals:")
         for name, reason in out.signals_skipped.items():
@@ -84,6 +87,7 @@ def build_parser() -> argparse.ArgumentParser:
     d.add_argument("--threshold", type=float, default=0.10, help="flag p-value cutoff")
     d.add_argument("--seed", type=int, default=0)
     d.add_argument("--show-flagged", action="store_true")
+    d.add_argument("--timing", action="store_true", help="report throughput/latency")
     d.set_defaults(func=cmd_detect)
 
     s = sub.add_parser("signals", help="list available signals")

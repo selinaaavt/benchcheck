@@ -40,11 +40,13 @@ class HFModel:
 
     def logprob(self, text: str) -> float:  # pragma: no cover - needs real model
         torch = self._torch
-        ids = self.tokenizer(text, return_tensors="pt").input_ids.to(self.device)
+        enc = self.tokenizer(text, return_tensors="pt")
+        ids = enc.input_ids.to(self.device)
+        mask = enc.attention_mask.to(self.device)
         if ids.shape[1] < 2:
             return 0.0
         with torch.no_grad():
-            logits = self.model(ids).logits
+            logits = self.model(ids, attention_mask=mask).logits
         # Shift: predict token t from tokens < t.
         logprobs = torch.log_softmax(logits[:, :-1, :], dim=-1)
         targets = ids[:, 1:]
@@ -53,10 +55,13 @@ class HFModel:
 
     def complete(self, prefix: str, max_new_tokens: int = 64) -> str:  # pragma: no cover
         torch = self._torch
-        ids = self.tokenizer(prefix, return_tensors="pt").input_ids.to(self.device)
+        enc = self.tokenizer(prefix, return_tensors="pt")
+        ids = enc.input_ids.to(self.device)
+        mask = enc.attention_mask.to(self.device)
         with torch.no_grad():
             out = self.model.generate(
                 ids,
+                attention_mask=mask,
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
                 pad_token_id=self.tokenizer.eos_token_id,

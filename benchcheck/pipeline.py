@@ -10,6 +10,7 @@ were skipped and why.
 """
 from __future__ import annotations
 
+import time
 from dataclasses import dataclass, field
 
 from benchcheck import signals as signals_pkg
@@ -31,10 +32,40 @@ class RunConfig:
 
 
 @dataclass
+class Timing:
+    """Throughput/latency instrumentation for a run."""
+
+    n_items: int = 0
+    wall_seconds: float = 0.0
+    per_signal_seconds: dict[str, float] = field(default_factory=dict)
+
+    @property
+    def items_per_second(self) -> float:
+        return self.n_items / self.wall_seconds if self.wall_seconds > 0 else 0.0
+
+    @property
+    def ms_per_item(self) -> float:
+        return 1000.0 * self.wall_seconds / self.n_items if self.n_items else 0.0
+
+    def summary(self) -> str:
+        lines = [
+            f"items             : {self.n_items}",
+            f"wall time         : {self.wall_seconds:.2f} s",
+            f"throughput        : {self.items_per_second:.1f} items/s "
+            f"({self.ms_per_item:.1f} ms/item)",
+            "per-signal time:",
+        ]
+        for name, secs in sorted(self.per_signal_seconds.items(), key=lambda x: -x[1]):
+            lines.append(f"    {name:<22} {secs:.2f} s")
+        return "\n".join(lines)
+
+
+@dataclass
 class RunOutput:
     report: BenchmarkReport
     signals_run: list[str]
     signals_skipped: dict[str, str]  # name -> reason
+    timing: Timing = field(default_factory=Timing)
 
 
 def run(model, items: list[Item], config: RunConfig | None = None) -> RunOutput:
@@ -65,10 +96,18 @@ def run(model, items: list[Item], config: RunConfig | None = None) -> RunOutput:
             elif config.signal_names is not None and s.name not in config.signal_names:
                 signals_skipped[s.name] = "not selected"
 
-    # Run.
+    # Run, timing each signal so we can report throughput per signal.
     results_by_item: dict[str, list[SignalResult]] = {}
+    per_signal_seconds: dict[str, float] = {s.name: 0.0 for s in candidates}
+    wall_start = time.perf_counter()
     for item in items:
-        results_by_item[item.id] = [s.score_item(item, ctx) for s in candidates]
+        item_results = []
+        for s in candidates:
+            t0 = time.perf_counter()
+            item_results.append(s.score_item(item, ctx))
+            per_signal_seconds[s.name] += time.perf_counter() - t0
+        results_by_item[item.id] = item_results
+    wall_seconds = time.perf_counter() - wall_start
 
     report = analyze(
         results_by_item,
@@ -76,4 +115,14 @@ def run(model, items: list[Item], config: RunConfig | None = None) -> RunOutput:
         weights=config.weights,
         seed=config.seed,
     )
-    return RunOutput(report=report, signals_run=signals_run, signals_skipped=signals_skipped)
+    timing = Timing(
+        n_items=len(items),
+        wall_seconds=wall_seconds,
+        per_signal_seconds=per_signal_seconds,
+    )
+    return RunOutput(
+        report=report,
+        signals_run=signals_run,
+        signals_skipped=signals_skipped,
+        timing=timing,
+    )

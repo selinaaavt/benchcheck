@@ -13,6 +13,7 @@ Then point the CLI at e.g. `--model hf:gpt2` or any causal LM you can run.
 from __future__ import annotations
 
 import math
+import os
 
 
 class HFModel:
@@ -34,6 +35,15 @@ class HFModel:
 
         self._torch = torch
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+        # On CPU, torch sometimes defaults to a single thread; use all cores
+        # unless the user pinned it via OMP_NUM_THREADS / torch threads already.
+        if self.device == "cpu" and "OMP_NUM_THREADS" not in os.environ:
+            try:
+                ncpu = os.cpu_count() or 1
+                if torch.get_num_threads() < ncpu:
+                    torch.set_num_threads(ncpu)
+            except Exception:
+                pass
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         # Many causal LMs (e.g. gpt2) ship without a pad token; needed for
         # batched scoring. Left-pad so the final token positions stay aligned.
